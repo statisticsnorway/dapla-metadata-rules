@@ -1,0 +1,184 @@
+{
+    "name": "Personinntekt",
+    "description": "Inntekt og formue for person",
+    "unitType": {
+        "concept-type": "UnitType",
+        "selected-id": "UnitType_DUMMY",
+        "candidates": [
+            {
+                "id": "UnitType_DUMMY",
+                "name": "UnitType_generated"
+            }
+        ]
+    },
+    "instanceVariables": [
+        {
+            "name": "fnr",
+            "description": "F\u00f8dselsnummer",
+            "dataStructureComponentType": {
+                "selected-enum": "IDENTIFIER",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "RepresentedVariable_DUMMY",
+                "candidates": [
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "RepresentedVariable_generated"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "Population_DUMMY",
+                "candidates": [
+                    {
+                        "id": "Population_DUMMY",
+                        "name": "Population_generated"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "bd621371-0838-42ad-8eaf-afd3eaa7fce8",
+                "candidates": [
+                    {
+                        "id": "bd621371-0838-42ad-8eaf-afd3eaa7fce8",
+                        "name": "Sample"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "kjonn",
+            "description": "Kj\u00f8nn",
+            "dataStructureComponentType": {
+                "selected-enum": "MEASURE",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "RepresentedVariable_DUMMY",
+                "candidates": [
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "RepresentedVariable_generated"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "Population_DUMMY",
+                "candidates": [
+                    {
+                        "id": "Population_DUMMY",
+                        "name": "Population_generated"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "bd621371-0838-42ad-8eaf-afd3eaa7fce8",
+                "candidates": [
+                    {
+                        "id": "bd621371-0838-42ad-8eaf-afd3eaa7fce8",
+                        "name": "Sample"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "bruttoinntekt",
+            "description": "Bruttoinntekt",
+            "dataStructureComponentType": {
+                "selected-enum": "MEASURE",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "RepresentedVariable_DUMMY",
+                "candidates": [
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "RepresentedVariable_generated"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "Population_DUMMY",
+                "candidates": [
+                    {
+                        "id": "Population_DUMMY",
+                        "name": "Population_generated"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "bd621371-0838-42ad-8eaf-afd3eaa7fce8",
+                "candidates": [
+                    {
+                        "id": "bd621371-0838-42ad-8eaf-afd3eaa7fce8",
+                        "name": "Sample"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "bruttoformue",
+            "description": "Bruttoformue",
+            "dataStructureComponentType": {
+                "selected-enum": "MEASURE",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "RepresentedVariable_DUMMY",
+                "candidates": [
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "RepresentedVariable_generated"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "Population_DUMMY",
+                "candidates": [
+                    {
+                        "id": "Population_DUMMY",
+                        "name": "Population_generated"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "bd621371-0838-42ad-8eaf-afd3eaa7fce8",
+                "candidates": [
+                    {
+                        "id": "bd621371-0838-42ad-8eaf-afd3eaa7fce8",
+                        "name": "Sample"
+                    }
+                ]
+            }
+        }
+    ]
+}

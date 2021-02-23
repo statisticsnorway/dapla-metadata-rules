@@ -1,0 +1,2824 @@
+{
+    "name": "skattedata",
+    "description": "xxx",
+    "unitType": {
+        "concept-type": "UnitType",
+        "selected-id": "51a8dcde-127d-49de-84a4-a0a9c34f666f",
+        "candidates": [
+            {
+                "id": "31fd20ea-e1ca-46ba-bbf1-9d81e827575e",
+                "name": "Family"
+            },
+            {
+                "id": "32ae01b4-50f7-4d8c-9be2-eecfeeef640c",
+                "name": "Municipality"
+            },
+            {
+                "id": "3920c94f-05f0-4886-b1bd-37712f6e5e5a",
+                "name": "Aksjon\u00e6r"
+            },
+            {
+                "id": "51a8dcde-127d-49de-84a4-a0a9c34f666f",
+                "name": "Person"
+            },
+            {
+                "id": "7989aba0-8264-46d2-b3e2-e7e9b575ff00",
+                "name": "magnus test"
+            },
+            {
+                "id": "82218226-ec61-46ce-9c6a-e7d3f29b3704",
+                "name": "Quality"
+            },
+            {
+                "id": "UnitType_DUMMY",
+                "name": "-- ikke angitt --"
+            },
+            {
+                "id": "a8311605-3ea7-4d13-9db1-ad6d93047b42",
+                "name": "Skip"
+            }
+        ]
+    },
+    "instanceVariables": [
+        {
+            "name": "pseudoident",
+            "description": "pid",
+            "dataStructureComponentType": {
+                "selected-enum": "IDENTIFIER",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "RepresentedVariable_DUMMY",
+                "candidates": [
+                    {
+                        "id": "0a6724df-3e2d-4b70-a8f5-da1610d3066a",
+                        "name": "Behandlingsart"
+                    },
+                    {
+                        "id": "126cda90-0f6f-4585-b7d7-4cfb905aa3f5",
+                        "name": "Pensjonstype"
+                    },
+                    {
+                        "id": "1ac980d4-86cd-4352-a0c6-fb8aadbf5485",
+                        "name": "Alminnelig inntekt etter s\u00e6rfradrag"
+                    },
+                    {
+                        "id": "217a2c16-0a87-486c-b0c0-1580d9ad830a",
+                        "name": "Bruttoinntekt"
+                    },
+                    {
+                        "id": "2f0a69ff-bbb8-4ba2-a7e4-ab852327e1d4",
+                        "name": "\u00c5rstall"
+                    },
+                    {
+                        "id": "3b75d087-d1cd-4fb8-9350-676561a6aa69",
+                        "name": "Aggregert beloep"
+                    },
+                    {
+                        "id": "41a8af39-940e-439d-b6d2-fda21daa4061",
+                        "name": "Sivilstand"
+                    },
+                    {
+                        "id": "44246a25-fb7a-4464-846e-051e01e514f6",
+                        "name": "Kjonn"
+                    },
+                    {
+                        "id": "46d0c360-b9d7-4c44-8089-bc54b8e085d6",
+                        "name": "Skattepliktig bruttoformue"
+                    },
+                    {
+                        "id": "51d14a9d-cf08-4d12-a680-0e97a7288ef6",
+                        "name": "DataQuality"
+                    },
+                    {
+                        "id": "56a74b18-e0a3-4ad5-9608-9ed4aa90ce51",
+                        "name": "F\u00f8deland"
+                    },
+                    {
+                        "id": "56ff3daa-0566-499f-ab34-5623fed65889",
+                        "name": "Inntektsfradrag"
+                    },
+                    {
+                        "id": "5f2cb527-92c8-40a4-b6c1-d0009a97fd09",
+                        "name": "Husholdningsnummer"
+                    },
+                    {
+                        "id": "6cdecd72-c4a8-4b56-9c0a-9fd01c4fea56",
+                        "name": "NationalPersonIdentifier"
+                    },
+                    {
+                        "id": "70ad2c76-7a3d-459a-91f2-7f9a39e6cd76",
+                        "name": "Municipality of residence"
+                    },
+                    {
+                        "id": "84b1b9ad-0641-4827-ac04-e6e0cc2a94c3",
+                        "name": "Landkode"
+                    },
+                    {
+                        "id": "86e5df7f-53ab-4dfe-bdbf-9d285de79a05",
+                        "name": "Personens f\u00f8dselsdato i f\u00f8lge folkeregisteret"
+                    },
+                    {
+                        "id": "88ac22fd-3ad4-41f5-9498-2217300b5ad1",
+                        "name": "ole test"
+                    },
+                    {
+                        "id": "8a0e6412-0fb0-46ed-b2e9-e3294b05fa59",
+                        "name": "Municipality"
+                    },
+                    {
+                        "id": "950b417a-0b3c-4909-aa4b-5689a1378b8e",
+                        "name": "NationalFamilyIdentifier"
+                    },
+                    {
+                        "id": "97305f97-8451-4e5b-aa08-42bddba50faf",
+                        "name": "Skattepliktig nettoformue"
+                    },
+                    {
+                        "id": "9a3e274e-4a08-42f5-b7b3-d3e06eaa8e98",
+                        "name": "Fastsatt skatt"
+                    },
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "d0dbb7eb-e0ca-44d3-909f-1dd7a9cb3249",
+                        "name": "NumOfChildren"
+                    },
+                    {
+                        "id": "d3648cc7-4a62-4da0-a168-5287949fbf56",
+                        "name": "FamilyType"
+                    },
+                    {
+                        "id": "dd31ea3d-a8a9-4b74-869c-92cde75dbb75",
+                        "name": "Pseudonymisert personidentifikator "
+                    },
+                    {
+                        "id": "e46ede82-cc41-441c-bd77-f1925afbd342",
+                        "name": "Marital status"
+                    },
+                    {
+                        "id": "e4bb3dda-a7dc-4022-a4b5-733cb5ef11da",
+                        "name": "Yrkesinntekt"
+                    },
+                    {
+                        "id": "edd61ac9-f36b-4b28-bf3b-27a582111ae2",
+                        "name": "Skattekommune"
+                    },
+                    {
+                        "id": "f07f737d-7ec7-47cf-89a1-155bfda3a03e",
+                        "name": "Bostedskommune"
+                    },
+                    {
+                        "id": "f2bdc3f3-5275-40a6-897d-c00a494532fc",
+                        "name": "Skattleggingsperiode"
+                    },
+                    {
+                        "id": "f49d5132-8a59-463b-bafa-2743038a54a7",
+                        "name": "kim-test"
+                    },
+                    {
+                        "id": "fc391be7-5fb5-49d0-a60d-7b4c7c9e0c24",
+                        "name": "Organisasjonsnummer"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                "candidates": [
+                    {
+                        "id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                        "name": "Alle personer i folkeregisteret"
+                    },
+                    {
+                        "id": "697bad36-53e8-4e6d-9b3b-0593c95eccf8",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "7ef40579-469d-447f-8955-febb7b254b10",
+                        "name": "All families 2018-01-01"
+                    },
+                    {
+                        "id": "96869bb9-ebcd-4630-ab73-005a4c4b4674",
+                        "name": "Personer med skatteplikt til Norge i 2019"
+                    },
+                    {
+                        "id": "dfb6eecf-c4f4-4fa6-82a1-8b8684d560f4c",
+                        "name": "Persons with income 2018-01-01"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "03ff807e-3d11-456e-8030-4f7319389405",
+                "candidates": [
+                    {
+                        "id": "03ff807e-3d11-456e-8030-4f7319389405",
+                        "name": "Desimaltall, todesimaler"
+                    },
+                    {
+                        "id": "29e2238b-1e5d-46cc-b9dc-1a0f5ec5060d",
+                        "name": "Standard for kj\u00f8nn"
+                    },
+                    {
+                        "id": "38543109-4ed6-42d8-a112-b2c6debf8d07",
+                        "name": "Organisasjonsnummer"
+                    },
+                    {
+                        "id": "41124132-6c2c-4f20-9f20-05a0dff38c03",
+                        "name": "Heltall, inkl. negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478273",
+                        "name": "Heltall, uten negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478XXX",
+                        "name": "Tekststreng"
+                    },
+                    {
+                        "id": "49796e15-26a2-420a-aa3b-35c9f72cd125",
+                        "name": "Standard for kvalitet"
+                    },
+                    {
+                        "id": "49c54ebc-e742-488a-8a8a-c6fe63410e4f",
+                        "name": "Familieidentifiserendenummer"
+                    },
+                    {
+                        "id": "5930e972-250e-49f2-888d-f1aacaa550f0",
+                        "name": "11 sifret pseudonymiserte verdier"
+                    },
+                    {
+                        "id": "5b30542b-3ed0-4136-8d1e-ebb5097d35af",
+                        "name": "Classification of municipalities"
+                    },
+                    {
+                        "id": "72d3ea5e-4c7b-43f9-9b49-d4bbc945fb97",
+                        "name": "Tolvdeler"
+                    },
+                    {
+                        "id": "7c2c5846-0727-4a5d-8d07-c832bb14f9e2",
+                        "name": "Amount"
+                    },
+                    {
+                        "id": "9096149f-2bc2-4be9-a190-435570ca924a",
+                        "name": "Standard for sivilstand"
+                    },
+                    {
+                        "id": "DescribedValueDomain_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "a52fc2be-0fb5-41d2-9183-82b2f6929700",
+                        "name": "Year"
+                    },
+                    {
+                        "id": "a6f6d20d-e5eb-449b-8d52-b65c1b22c8ed",
+                        "name": "Standard for gruppering av familier"
+                    },
+                    {
+                        "id": "ae8edf6a-be4d-4c1c-930f-e6c9473cff95",
+                        "name": "Dato"
+                    },
+                    {
+                        "id": "b936a04e-c238-4f1c-83ef-b7e863d4cdbf",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "c14bf95e-a116-489b-827b-686650024930",
+                        "name": "F\u00f8dselsnummer"
+                    },
+                    {
+                        "id": "c1a40b5c-f8d4-4ed8-b137-60afc71afa0c",
+                        "name": "Standard for sentinelle verdier"
+                    },
+                    {
+                        "id": "d8358911-7f2d-45b6-83d0-9665e793448a",
+                        "name": "Standard for gruppering av husholdninger"
+                    },
+                    {
+                        "id": "d8cc8722-e5a1-4972-80b1-d00630b4e6ea",
+                        "name": "Standard for pensjonstype"
+                    },
+                    {
+                        "id": "e2db994a-c16a-45cf-92e6-e4f1e39581f4",
+                        "name": "Standard for land og statsborgerskap i personstatistikk"
+                    },
+                    {
+                        "id": "fcdd031c-59fe-4d11-96dc-2eceff091c74",
+                        "name": "Standard for behandlingsart"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "skattleggingsperiode",
+            "description": "s",
+            "dataStructureComponentType": {
+                "selected-enum": "MEASURE",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "dd31ea3d-a8a9-4b74-869c-92cde75dbb75",
+                "candidates": [
+                    {
+                        "id": "0a6724df-3e2d-4b70-a8f5-da1610d3066a",
+                        "name": "Behandlingsart"
+                    },
+                    {
+                        "id": "126cda90-0f6f-4585-b7d7-4cfb905aa3f5",
+                        "name": "Pensjonstype"
+                    },
+                    {
+                        "id": "1ac980d4-86cd-4352-a0c6-fb8aadbf5485",
+                        "name": "Alminnelig inntekt etter s\u00e6rfradrag"
+                    },
+                    {
+                        "id": "217a2c16-0a87-486c-b0c0-1580d9ad830a",
+                        "name": "Bruttoinntekt"
+                    },
+                    {
+                        "id": "2f0a69ff-bbb8-4ba2-a7e4-ab852327e1d4",
+                        "name": "\u00c5rstall"
+                    },
+                    {
+                        "id": "3b75d087-d1cd-4fb8-9350-676561a6aa69",
+                        "name": "Aggregert beloep"
+                    },
+                    {
+                        "id": "41a8af39-940e-439d-b6d2-fda21daa4061",
+                        "name": "Sivilstand"
+                    },
+                    {
+                        "id": "44246a25-fb7a-4464-846e-051e01e514f6",
+                        "name": "Kjonn"
+                    },
+                    {
+                        "id": "46d0c360-b9d7-4c44-8089-bc54b8e085d6",
+                        "name": "Skattepliktig bruttoformue"
+                    },
+                    {
+                        "id": "51d14a9d-cf08-4d12-a680-0e97a7288ef6",
+                        "name": "DataQuality"
+                    },
+                    {
+                        "id": "56a74b18-e0a3-4ad5-9608-9ed4aa90ce51",
+                        "name": "F\u00f8deland"
+                    },
+                    {
+                        "id": "56ff3daa-0566-499f-ab34-5623fed65889",
+                        "name": "Inntektsfradrag"
+                    },
+                    {
+                        "id": "5f2cb527-92c8-40a4-b6c1-d0009a97fd09",
+                        "name": "Husholdningsnummer"
+                    },
+                    {
+                        "id": "6cdecd72-c4a8-4b56-9c0a-9fd01c4fea56",
+                        "name": "NationalPersonIdentifier"
+                    },
+                    {
+                        "id": "70ad2c76-7a3d-459a-91f2-7f9a39e6cd76",
+                        "name": "Municipality of residence"
+                    },
+                    {
+                        "id": "84b1b9ad-0641-4827-ac04-e6e0cc2a94c3",
+                        "name": "Landkode"
+                    },
+                    {
+                        "id": "86e5df7f-53ab-4dfe-bdbf-9d285de79a05",
+                        "name": "Personens f\u00f8dselsdato i f\u00f8lge folkeregisteret"
+                    },
+                    {
+                        "id": "88ac22fd-3ad4-41f5-9498-2217300b5ad1",
+                        "name": "ole test"
+                    },
+                    {
+                        "id": "8a0e6412-0fb0-46ed-b2e9-e3294b05fa59",
+                        "name": "Municipality"
+                    },
+                    {
+                        "id": "950b417a-0b3c-4909-aa4b-5689a1378b8e",
+                        "name": "NationalFamilyIdentifier"
+                    },
+                    {
+                        "id": "97305f97-8451-4e5b-aa08-42bddba50faf",
+                        "name": "Skattepliktig nettoformue"
+                    },
+                    {
+                        "id": "9a3e274e-4a08-42f5-b7b3-d3e06eaa8e98",
+                        "name": "Fastsatt skatt"
+                    },
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "d0dbb7eb-e0ca-44d3-909f-1dd7a9cb3249",
+                        "name": "NumOfChildren"
+                    },
+                    {
+                        "id": "d3648cc7-4a62-4da0-a168-5287949fbf56",
+                        "name": "FamilyType"
+                    },
+                    {
+                        "id": "dd31ea3d-a8a9-4b74-869c-92cde75dbb75",
+                        "name": "Pseudonymisert personidentifikator "
+                    },
+                    {
+                        "id": "e46ede82-cc41-441c-bd77-f1925afbd342",
+                        "name": "Marital status"
+                    },
+                    {
+                        "id": "e4bb3dda-a7dc-4022-a4b5-733cb5ef11da",
+                        "name": "Yrkesinntekt"
+                    },
+                    {
+                        "id": "edd61ac9-f36b-4b28-bf3b-27a582111ae2",
+                        "name": "Skattekommune"
+                    },
+                    {
+                        "id": "f07f737d-7ec7-47cf-89a1-155bfda3a03e",
+                        "name": "Bostedskommune"
+                    },
+                    {
+                        "id": "f2bdc3f3-5275-40a6-897d-c00a494532fc",
+                        "name": "Skattleggingsperiode"
+                    },
+                    {
+                        "id": "f49d5132-8a59-463b-bafa-2743038a54a7",
+                        "name": "kim-test"
+                    },
+                    {
+                        "id": "fc391be7-5fb5-49d0-a60d-7b4c7c9e0c24",
+                        "name": "Organisasjonsnummer"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                "candidates": [
+                    {
+                        "id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                        "name": "Alle personer i folkeregisteret"
+                    },
+                    {
+                        "id": "697bad36-53e8-4e6d-9b3b-0593c95eccf8",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "7ef40579-469d-447f-8955-febb7b254b10",
+                        "name": "All families 2018-01-01"
+                    },
+                    {
+                        "id": "96869bb9-ebcd-4630-ab73-005a4c4b4674",
+                        "name": "Personer med skatteplikt til Norge i 2019"
+                    },
+                    {
+                        "id": "dfb6eecf-c4f4-4fa6-82a1-8b8684d560f4c",
+                        "name": "Persons with income 2018-01-01"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "DescribedValueDomain_DUMMY",
+                "candidates": [
+                    {
+                        "id": "03ff807e-3d11-456e-8030-4f7319389405",
+                        "name": "Desimaltall, todesimaler"
+                    },
+                    {
+                        "id": "29e2238b-1e5d-46cc-b9dc-1a0f5ec5060d",
+                        "name": "Standard for kj\u00f8nn"
+                    },
+                    {
+                        "id": "38543109-4ed6-42d8-a112-b2c6debf8d07",
+                        "name": "Organisasjonsnummer"
+                    },
+                    {
+                        "id": "41124132-6c2c-4f20-9f20-05a0dff38c03",
+                        "name": "Heltall, inkl. negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478273",
+                        "name": "Heltall, uten negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478XXX",
+                        "name": "Tekststreng"
+                    },
+                    {
+                        "id": "49796e15-26a2-420a-aa3b-35c9f72cd125",
+                        "name": "Standard for kvalitet"
+                    },
+                    {
+                        "id": "49c54ebc-e742-488a-8a8a-c6fe63410e4f",
+                        "name": "Familieidentifiserendenummer"
+                    },
+                    {
+                        "id": "5930e972-250e-49f2-888d-f1aacaa550f0",
+                        "name": "11 sifret pseudonymiserte verdier"
+                    },
+                    {
+                        "id": "5b30542b-3ed0-4136-8d1e-ebb5097d35af",
+                        "name": "Classification of municipalities"
+                    },
+                    {
+                        "id": "72d3ea5e-4c7b-43f9-9b49-d4bbc945fb97",
+                        "name": "Tolvdeler"
+                    },
+                    {
+                        "id": "7c2c5846-0727-4a5d-8d07-c832bb14f9e2",
+                        "name": "Amount"
+                    },
+                    {
+                        "id": "9096149f-2bc2-4be9-a190-435570ca924a",
+                        "name": "Standard for sivilstand"
+                    },
+                    {
+                        "id": "DescribedValueDomain_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "a52fc2be-0fb5-41d2-9183-82b2f6929700",
+                        "name": "Year"
+                    },
+                    {
+                        "id": "a6f6d20d-e5eb-449b-8d52-b65c1b22c8ed",
+                        "name": "Standard for gruppering av familier"
+                    },
+                    {
+                        "id": "ae8edf6a-be4d-4c1c-930f-e6c9473cff95",
+                        "name": "Dato"
+                    },
+                    {
+                        "id": "b936a04e-c238-4f1c-83ef-b7e863d4cdbf",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "c14bf95e-a116-489b-827b-686650024930",
+                        "name": "F\u00f8dselsnummer"
+                    },
+                    {
+                        "id": "c1a40b5c-f8d4-4ed8-b137-60afc71afa0c",
+                        "name": "Standard for sentinelle verdier"
+                    },
+                    {
+                        "id": "d8358911-7f2d-45b6-83d0-9665e793448a",
+                        "name": "Standard for gruppering av husholdninger"
+                    },
+                    {
+                        "id": "d8cc8722-e5a1-4972-80b1-d00630b4e6ea",
+                        "name": "Standard for pensjonstype"
+                    },
+                    {
+                        "id": "e2db994a-c16a-45cf-92e6-e4f1e39581f4",
+                        "name": "Standard for land og statsborgerskap i personstatistikk"
+                    },
+                    {
+                        "id": "fcdd031c-59fe-4d11-96dc-2eceff091c74",
+                        "name": "Standard for behandlingsart"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "skattekommune",
+            "description": "sa",
+            "dataStructureComponentType": {
+                "selected-enum": "MEASURE",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "RepresentedVariable_DUMMY",
+                "candidates": [
+                    {
+                        "id": "0a6724df-3e2d-4b70-a8f5-da1610d3066a",
+                        "name": "Behandlingsart"
+                    },
+                    {
+                        "id": "126cda90-0f6f-4585-b7d7-4cfb905aa3f5",
+                        "name": "Pensjonstype"
+                    },
+                    {
+                        "id": "1ac980d4-86cd-4352-a0c6-fb8aadbf5485",
+                        "name": "Alminnelig inntekt etter s\u00e6rfradrag"
+                    },
+                    {
+                        "id": "217a2c16-0a87-486c-b0c0-1580d9ad830a",
+                        "name": "Bruttoinntekt"
+                    },
+                    {
+                        "id": "2f0a69ff-bbb8-4ba2-a7e4-ab852327e1d4",
+                        "name": "\u00c5rstall"
+                    },
+                    {
+                        "id": "3b75d087-d1cd-4fb8-9350-676561a6aa69",
+                        "name": "Aggregert beloep"
+                    },
+                    {
+                        "id": "41a8af39-940e-439d-b6d2-fda21daa4061",
+                        "name": "Sivilstand"
+                    },
+                    {
+                        "id": "44246a25-fb7a-4464-846e-051e01e514f6",
+                        "name": "Kjonn"
+                    },
+                    {
+                        "id": "46d0c360-b9d7-4c44-8089-bc54b8e085d6",
+                        "name": "Skattepliktig bruttoformue"
+                    },
+                    {
+                        "id": "51d14a9d-cf08-4d12-a680-0e97a7288ef6",
+                        "name": "DataQuality"
+                    },
+                    {
+                        "id": "56a74b18-e0a3-4ad5-9608-9ed4aa90ce51",
+                        "name": "F\u00f8deland"
+                    },
+                    {
+                        "id": "56ff3daa-0566-499f-ab34-5623fed65889",
+                        "name": "Inntektsfradrag"
+                    },
+                    {
+                        "id": "5f2cb527-92c8-40a4-b6c1-d0009a97fd09",
+                        "name": "Husholdningsnummer"
+                    },
+                    {
+                        "id": "6cdecd72-c4a8-4b56-9c0a-9fd01c4fea56",
+                        "name": "NationalPersonIdentifier"
+                    },
+                    {
+                        "id": "70ad2c76-7a3d-459a-91f2-7f9a39e6cd76",
+                        "name": "Municipality of residence"
+                    },
+                    {
+                        "id": "84b1b9ad-0641-4827-ac04-e6e0cc2a94c3",
+                        "name": "Landkode"
+                    },
+                    {
+                        "id": "86e5df7f-53ab-4dfe-bdbf-9d285de79a05",
+                        "name": "Personens f\u00f8dselsdato i f\u00f8lge folkeregisteret"
+                    },
+                    {
+                        "id": "88ac22fd-3ad4-41f5-9498-2217300b5ad1",
+                        "name": "ole test"
+                    },
+                    {
+                        "id": "8a0e6412-0fb0-46ed-b2e9-e3294b05fa59",
+                        "name": "Municipality"
+                    },
+                    {
+                        "id": "950b417a-0b3c-4909-aa4b-5689a1378b8e",
+                        "name": "NationalFamilyIdentifier"
+                    },
+                    {
+                        "id": "97305f97-8451-4e5b-aa08-42bddba50faf",
+                        "name": "Skattepliktig nettoformue"
+                    },
+                    {
+                        "id": "9a3e274e-4a08-42f5-b7b3-d3e06eaa8e98",
+                        "name": "Fastsatt skatt"
+                    },
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "d0dbb7eb-e0ca-44d3-909f-1dd7a9cb3249",
+                        "name": "NumOfChildren"
+                    },
+                    {
+                        "id": "d3648cc7-4a62-4da0-a168-5287949fbf56",
+                        "name": "FamilyType"
+                    },
+                    {
+                        "id": "dd31ea3d-a8a9-4b74-869c-92cde75dbb75",
+                        "name": "Pseudonymisert personidentifikator "
+                    },
+                    {
+                        "id": "e46ede82-cc41-441c-bd77-f1925afbd342",
+                        "name": "Marital status"
+                    },
+                    {
+                        "id": "e4bb3dda-a7dc-4022-a4b5-733cb5ef11da",
+                        "name": "Yrkesinntekt"
+                    },
+                    {
+                        "id": "edd61ac9-f36b-4b28-bf3b-27a582111ae2",
+                        "name": "Skattekommune"
+                    },
+                    {
+                        "id": "f07f737d-7ec7-47cf-89a1-155bfda3a03e",
+                        "name": "Bostedskommune"
+                    },
+                    {
+                        "id": "f2bdc3f3-5275-40a6-897d-c00a494532fc",
+                        "name": "Skattleggingsperiode"
+                    },
+                    {
+                        "id": "f49d5132-8a59-463b-bafa-2743038a54a7",
+                        "name": "kim-test"
+                    },
+                    {
+                        "id": "fc391be7-5fb5-49d0-a60d-7b4c7c9e0c24",
+                        "name": "Organisasjonsnummer"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                "candidates": [
+                    {
+                        "id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                        "name": "Alle personer i folkeregisteret"
+                    },
+                    {
+                        "id": "697bad36-53e8-4e6d-9b3b-0593c95eccf8",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "7ef40579-469d-447f-8955-febb7b254b10",
+                        "name": "All families 2018-01-01"
+                    },
+                    {
+                        "id": "96869bb9-ebcd-4630-ab73-005a4c4b4674",
+                        "name": "Personer med skatteplikt til Norge i 2019"
+                    },
+                    {
+                        "id": "dfb6eecf-c4f4-4fa6-82a1-8b8684d560f4c",
+                        "name": "Persons with income 2018-01-01"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "03ff807e-3d11-456e-8030-4f7319389405",
+                "candidates": [
+                    {
+                        "id": "03ff807e-3d11-456e-8030-4f7319389405",
+                        "name": "Desimaltall, todesimaler"
+                    },
+                    {
+                        "id": "29e2238b-1e5d-46cc-b9dc-1a0f5ec5060d",
+                        "name": "Standard for kj\u00f8nn"
+                    },
+                    {
+                        "id": "38543109-4ed6-42d8-a112-b2c6debf8d07",
+                        "name": "Organisasjonsnummer"
+                    },
+                    {
+                        "id": "41124132-6c2c-4f20-9f20-05a0dff38c03",
+                        "name": "Heltall, inkl. negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478273",
+                        "name": "Heltall, uten negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478XXX",
+                        "name": "Tekststreng"
+                    },
+                    {
+                        "id": "49796e15-26a2-420a-aa3b-35c9f72cd125",
+                        "name": "Standard for kvalitet"
+                    },
+                    {
+                        "id": "49c54ebc-e742-488a-8a8a-c6fe63410e4f",
+                        "name": "Familieidentifiserendenummer"
+                    },
+                    {
+                        "id": "5930e972-250e-49f2-888d-f1aacaa550f0",
+                        "name": "11 sifret pseudonymiserte verdier"
+                    },
+                    {
+                        "id": "5b30542b-3ed0-4136-8d1e-ebb5097d35af",
+                        "name": "Classification of municipalities"
+                    },
+                    {
+                        "id": "72d3ea5e-4c7b-43f9-9b49-d4bbc945fb97",
+                        "name": "Tolvdeler"
+                    },
+                    {
+                        "id": "7c2c5846-0727-4a5d-8d07-c832bb14f9e2",
+                        "name": "Amount"
+                    },
+                    {
+                        "id": "9096149f-2bc2-4be9-a190-435570ca924a",
+                        "name": "Standard for sivilstand"
+                    },
+                    {
+                        "id": "DescribedValueDomain_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "a52fc2be-0fb5-41d2-9183-82b2f6929700",
+                        "name": "Year"
+                    },
+                    {
+                        "id": "a6f6d20d-e5eb-449b-8d52-b65c1b22c8ed",
+                        "name": "Standard for gruppering av familier"
+                    },
+                    {
+                        "id": "ae8edf6a-be4d-4c1c-930f-e6c9473cff95",
+                        "name": "Dato"
+                    },
+                    {
+                        "id": "b936a04e-c238-4f1c-83ef-b7e863d4cdbf",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "c14bf95e-a116-489b-827b-686650024930",
+                        "name": "F\u00f8dselsnummer"
+                    },
+                    {
+                        "id": "c1a40b5c-f8d4-4ed8-b137-60afc71afa0c",
+                        "name": "Standard for sentinelle verdier"
+                    },
+                    {
+                        "id": "d8358911-7f2d-45b6-83d0-9665e793448a",
+                        "name": "Standard for gruppering av husholdninger"
+                    },
+                    {
+                        "id": "d8cc8722-e5a1-4972-80b1-d00630b4e6ea",
+                        "name": "Standard for pensjonstype"
+                    },
+                    {
+                        "id": "e2db994a-c16a-45cf-92e6-e4f1e39581f4",
+                        "name": "Standard for land og statsborgerskap i personstatistikk"
+                    },
+                    {
+                        "id": "fcdd031c-59fe-4d11-96dc-2eceff091c74",
+                        "name": "Standard for behandlingsart"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "kjonn",
+            "description": "k",
+            "dataStructureComponentType": {
+                "selected-enum": "MEASURE",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "RepresentedVariable_DUMMY",
+                "candidates": [
+                    {
+                        "id": "0a6724df-3e2d-4b70-a8f5-da1610d3066a",
+                        "name": "Behandlingsart"
+                    },
+                    {
+                        "id": "126cda90-0f6f-4585-b7d7-4cfb905aa3f5",
+                        "name": "Pensjonstype"
+                    },
+                    {
+                        "id": "1ac980d4-86cd-4352-a0c6-fb8aadbf5485",
+                        "name": "Alminnelig inntekt etter s\u00e6rfradrag"
+                    },
+                    {
+                        "id": "217a2c16-0a87-486c-b0c0-1580d9ad830a",
+                        "name": "Bruttoinntekt"
+                    },
+                    {
+                        "id": "2f0a69ff-bbb8-4ba2-a7e4-ab852327e1d4",
+                        "name": "\u00c5rstall"
+                    },
+                    {
+                        "id": "3b75d087-d1cd-4fb8-9350-676561a6aa69",
+                        "name": "Aggregert beloep"
+                    },
+                    {
+                        "id": "41a8af39-940e-439d-b6d2-fda21daa4061",
+                        "name": "Sivilstand"
+                    },
+                    {
+                        "id": "44246a25-fb7a-4464-846e-051e01e514f6",
+                        "name": "Kjonn"
+                    },
+                    {
+                        "id": "46d0c360-b9d7-4c44-8089-bc54b8e085d6",
+                        "name": "Skattepliktig bruttoformue"
+                    },
+                    {
+                        "id": "51d14a9d-cf08-4d12-a680-0e97a7288ef6",
+                        "name": "DataQuality"
+                    },
+                    {
+                        "id": "56a74b18-e0a3-4ad5-9608-9ed4aa90ce51",
+                        "name": "F\u00f8deland"
+                    },
+                    {
+                        "id": "56ff3daa-0566-499f-ab34-5623fed65889",
+                        "name": "Inntektsfradrag"
+                    },
+                    {
+                        "id": "5f2cb527-92c8-40a4-b6c1-d0009a97fd09",
+                        "name": "Husholdningsnummer"
+                    },
+                    {
+                        "id": "6cdecd72-c4a8-4b56-9c0a-9fd01c4fea56",
+                        "name": "NationalPersonIdentifier"
+                    },
+                    {
+                        "id": "70ad2c76-7a3d-459a-91f2-7f9a39e6cd76",
+                        "name": "Municipality of residence"
+                    },
+                    {
+                        "id": "84b1b9ad-0641-4827-ac04-e6e0cc2a94c3",
+                        "name": "Landkode"
+                    },
+                    {
+                        "id": "86e5df7f-53ab-4dfe-bdbf-9d285de79a05",
+                        "name": "Personens f\u00f8dselsdato i f\u00f8lge folkeregisteret"
+                    },
+                    {
+                        "id": "88ac22fd-3ad4-41f5-9498-2217300b5ad1",
+                        "name": "ole test"
+                    },
+                    {
+                        "id": "8a0e6412-0fb0-46ed-b2e9-e3294b05fa59",
+                        "name": "Municipality"
+                    },
+                    {
+                        "id": "950b417a-0b3c-4909-aa4b-5689a1378b8e",
+                        "name": "NationalFamilyIdentifier"
+                    },
+                    {
+                        "id": "97305f97-8451-4e5b-aa08-42bddba50faf",
+                        "name": "Skattepliktig nettoformue"
+                    },
+                    {
+                        "id": "9a3e274e-4a08-42f5-b7b3-d3e06eaa8e98",
+                        "name": "Fastsatt skatt"
+                    },
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "d0dbb7eb-e0ca-44d3-909f-1dd7a9cb3249",
+                        "name": "NumOfChildren"
+                    },
+                    {
+                        "id": "d3648cc7-4a62-4da0-a168-5287949fbf56",
+                        "name": "FamilyType"
+                    },
+                    {
+                        "id": "dd31ea3d-a8a9-4b74-869c-92cde75dbb75",
+                        "name": "Pseudonymisert personidentifikator "
+                    },
+                    {
+                        "id": "e46ede82-cc41-441c-bd77-f1925afbd342",
+                        "name": "Marital status"
+                    },
+                    {
+                        "id": "e4bb3dda-a7dc-4022-a4b5-733cb5ef11da",
+                        "name": "Yrkesinntekt"
+                    },
+                    {
+                        "id": "edd61ac9-f36b-4b28-bf3b-27a582111ae2",
+                        "name": "Skattekommune"
+                    },
+                    {
+                        "id": "f07f737d-7ec7-47cf-89a1-155bfda3a03e",
+                        "name": "Bostedskommune"
+                    },
+                    {
+                        "id": "f2bdc3f3-5275-40a6-897d-c00a494532fc",
+                        "name": "Skattleggingsperiode"
+                    },
+                    {
+                        "id": "f49d5132-8a59-463b-bafa-2743038a54a7",
+                        "name": "kim-test"
+                    },
+                    {
+                        "id": "fc391be7-5fb5-49d0-a60d-7b4c7c9e0c24",
+                        "name": "Organisasjonsnummer"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                "candidates": [
+                    {
+                        "id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                        "name": "Alle personer i folkeregisteret"
+                    },
+                    {
+                        "id": "697bad36-53e8-4e6d-9b3b-0593c95eccf8",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "7ef40579-469d-447f-8955-febb7b254b10",
+                        "name": "All families 2018-01-01"
+                    },
+                    {
+                        "id": "96869bb9-ebcd-4630-ab73-005a4c4b4674",
+                        "name": "Personer med skatteplikt til Norge i 2019"
+                    },
+                    {
+                        "id": "dfb6eecf-c4f4-4fa6-82a1-8b8684d560f4c",
+                        "name": "Persons with income 2018-01-01"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "03ff807e-3d11-456e-8030-4f7319389405",
+                "candidates": [
+                    {
+                        "id": "03ff807e-3d11-456e-8030-4f7319389405",
+                        "name": "Desimaltall, todesimaler"
+                    },
+                    {
+                        "id": "29e2238b-1e5d-46cc-b9dc-1a0f5ec5060d",
+                        "name": "Standard for kj\u00f8nn"
+                    },
+                    {
+                        "id": "38543109-4ed6-42d8-a112-b2c6debf8d07",
+                        "name": "Organisasjonsnummer"
+                    },
+                    {
+                        "id": "41124132-6c2c-4f20-9f20-05a0dff38c03",
+                        "name": "Heltall, inkl. negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478273",
+                        "name": "Heltall, uten negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478XXX",
+                        "name": "Tekststreng"
+                    },
+                    {
+                        "id": "49796e15-26a2-420a-aa3b-35c9f72cd125",
+                        "name": "Standard for kvalitet"
+                    },
+                    {
+                        "id": "49c54ebc-e742-488a-8a8a-c6fe63410e4f",
+                        "name": "Familieidentifiserendenummer"
+                    },
+                    {
+                        "id": "5930e972-250e-49f2-888d-f1aacaa550f0",
+                        "name": "11 sifret pseudonymiserte verdier"
+                    },
+                    {
+                        "id": "5b30542b-3ed0-4136-8d1e-ebb5097d35af",
+                        "name": "Classification of municipalities"
+                    },
+                    {
+                        "id": "72d3ea5e-4c7b-43f9-9b49-d4bbc945fb97",
+                        "name": "Tolvdeler"
+                    },
+                    {
+                        "id": "7c2c5846-0727-4a5d-8d07-c832bb14f9e2",
+                        "name": "Amount"
+                    },
+                    {
+                        "id": "9096149f-2bc2-4be9-a190-435570ca924a",
+                        "name": "Standard for sivilstand"
+                    },
+                    {
+                        "id": "DescribedValueDomain_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "a52fc2be-0fb5-41d2-9183-82b2f6929700",
+                        "name": "Year"
+                    },
+                    {
+                        "id": "a6f6d20d-e5eb-449b-8d52-b65c1b22c8ed",
+                        "name": "Standard for gruppering av familier"
+                    },
+                    {
+                        "id": "ae8edf6a-be4d-4c1c-930f-e6c9473cff95",
+                        "name": "Dato"
+                    },
+                    {
+                        "id": "b936a04e-c238-4f1c-83ef-b7e863d4cdbf",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "c14bf95e-a116-489b-827b-686650024930",
+                        "name": "F\u00f8dselsnummer"
+                    },
+                    {
+                        "id": "c1a40b5c-f8d4-4ed8-b137-60afc71afa0c",
+                        "name": "Standard for sentinelle verdier"
+                    },
+                    {
+                        "id": "d8358911-7f2d-45b6-83d0-9665e793448a",
+                        "name": "Standard for gruppering av husholdninger"
+                    },
+                    {
+                        "id": "d8cc8722-e5a1-4972-80b1-d00630b4e6ea",
+                        "name": "Standard for pensjonstype"
+                    },
+                    {
+                        "id": "e2db994a-c16a-45cf-92e6-e4f1e39581f4",
+                        "name": "Standard for land og statsborgerskap i personstatistikk"
+                    },
+                    {
+                        "id": "fcdd031c-59fe-4d11-96dc-2eceff091c74",
+                        "name": "Standard for behandlingsart"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "bruttoinntekt",
+            "description": "b",
+            "dataStructureComponentType": {
+                "selected-enum": "MEASURE",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "RepresentedVariable_DUMMY",
+                "candidates": [
+                    {
+                        "id": "0a6724df-3e2d-4b70-a8f5-da1610d3066a",
+                        "name": "Behandlingsart"
+                    },
+                    {
+                        "id": "126cda90-0f6f-4585-b7d7-4cfb905aa3f5",
+                        "name": "Pensjonstype"
+                    },
+                    {
+                        "id": "1ac980d4-86cd-4352-a0c6-fb8aadbf5485",
+                        "name": "Alminnelig inntekt etter s\u00e6rfradrag"
+                    },
+                    {
+                        "id": "217a2c16-0a87-486c-b0c0-1580d9ad830a",
+                        "name": "Bruttoinntekt"
+                    },
+                    {
+                        "id": "2f0a69ff-bbb8-4ba2-a7e4-ab852327e1d4",
+                        "name": "\u00c5rstall"
+                    },
+                    {
+                        "id": "3b75d087-d1cd-4fb8-9350-676561a6aa69",
+                        "name": "Aggregert beloep"
+                    },
+                    {
+                        "id": "41a8af39-940e-439d-b6d2-fda21daa4061",
+                        "name": "Sivilstand"
+                    },
+                    {
+                        "id": "44246a25-fb7a-4464-846e-051e01e514f6",
+                        "name": "Kjonn"
+                    },
+                    {
+                        "id": "46d0c360-b9d7-4c44-8089-bc54b8e085d6",
+                        "name": "Skattepliktig bruttoformue"
+                    },
+                    {
+                        "id": "51d14a9d-cf08-4d12-a680-0e97a7288ef6",
+                        "name": "DataQuality"
+                    },
+                    {
+                        "id": "56a74b18-e0a3-4ad5-9608-9ed4aa90ce51",
+                        "name": "F\u00f8deland"
+                    },
+                    {
+                        "id": "56ff3daa-0566-499f-ab34-5623fed65889",
+                        "name": "Inntektsfradrag"
+                    },
+                    {
+                        "id": "5f2cb527-92c8-40a4-b6c1-d0009a97fd09",
+                        "name": "Husholdningsnummer"
+                    },
+                    {
+                        "id": "6cdecd72-c4a8-4b56-9c0a-9fd01c4fea56",
+                        "name": "NationalPersonIdentifier"
+                    },
+                    {
+                        "id": "70ad2c76-7a3d-459a-91f2-7f9a39e6cd76",
+                        "name": "Municipality of residence"
+                    },
+                    {
+                        "id": "84b1b9ad-0641-4827-ac04-e6e0cc2a94c3",
+                        "name": "Landkode"
+                    },
+                    {
+                        "id": "86e5df7f-53ab-4dfe-bdbf-9d285de79a05",
+                        "name": "Personens f\u00f8dselsdato i f\u00f8lge folkeregisteret"
+                    },
+                    {
+                        "id": "88ac22fd-3ad4-41f5-9498-2217300b5ad1",
+                        "name": "ole test"
+                    },
+                    {
+                        "id": "8a0e6412-0fb0-46ed-b2e9-e3294b05fa59",
+                        "name": "Municipality"
+                    },
+                    {
+                        "id": "950b417a-0b3c-4909-aa4b-5689a1378b8e",
+                        "name": "NationalFamilyIdentifier"
+                    },
+                    {
+                        "id": "97305f97-8451-4e5b-aa08-42bddba50faf",
+                        "name": "Skattepliktig nettoformue"
+                    },
+                    {
+                        "id": "9a3e274e-4a08-42f5-b7b3-d3e06eaa8e98",
+                        "name": "Fastsatt skatt"
+                    },
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "d0dbb7eb-e0ca-44d3-909f-1dd7a9cb3249",
+                        "name": "NumOfChildren"
+                    },
+                    {
+                        "id": "d3648cc7-4a62-4da0-a168-5287949fbf56",
+                        "name": "FamilyType"
+                    },
+                    {
+                        "id": "dd31ea3d-a8a9-4b74-869c-92cde75dbb75",
+                        "name": "Pseudonymisert personidentifikator "
+                    },
+                    {
+                        "id": "e46ede82-cc41-441c-bd77-f1925afbd342",
+                        "name": "Marital status"
+                    },
+                    {
+                        "id": "e4bb3dda-a7dc-4022-a4b5-733cb5ef11da",
+                        "name": "Yrkesinntekt"
+                    },
+                    {
+                        "id": "edd61ac9-f36b-4b28-bf3b-27a582111ae2",
+                        "name": "Skattekommune"
+                    },
+                    {
+                        "id": "f07f737d-7ec7-47cf-89a1-155bfda3a03e",
+                        "name": "Bostedskommune"
+                    },
+                    {
+                        "id": "f2bdc3f3-5275-40a6-897d-c00a494532fc",
+                        "name": "Skattleggingsperiode"
+                    },
+                    {
+                        "id": "f49d5132-8a59-463b-bafa-2743038a54a7",
+                        "name": "kim-test"
+                    },
+                    {
+                        "id": "fc391be7-5fb5-49d0-a60d-7b4c7c9e0c24",
+                        "name": "Organisasjonsnummer"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                "candidates": [
+                    {
+                        "id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                        "name": "Alle personer i folkeregisteret"
+                    },
+                    {
+                        "id": "697bad36-53e8-4e6d-9b3b-0593c95eccf8",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "7ef40579-469d-447f-8955-febb7b254b10",
+                        "name": "All families 2018-01-01"
+                    },
+                    {
+                        "id": "96869bb9-ebcd-4630-ab73-005a4c4b4674",
+                        "name": "Personer med skatteplikt til Norge i 2019"
+                    },
+                    {
+                        "id": "dfb6eecf-c4f4-4fa6-82a1-8b8684d560f4c",
+                        "name": "Persons with income 2018-01-01"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "03ff807e-3d11-456e-8030-4f7319389405",
+                "candidates": [
+                    {
+                        "id": "03ff807e-3d11-456e-8030-4f7319389405",
+                        "name": "Desimaltall, todesimaler"
+                    },
+                    {
+                        "id": "29e2238b-1e5d-46cc-b9dc-1a0f5ec5060d",
+                        "name": "Standard for kj\u00f8nn"
+                    },
+                    {
+                        "id": "38543109-4ed6-42d8-a112-b2c6debf8d07",
+                        "name": "Organisasjonsnummer"
+                    },
+                    {
+                        "id": "41124132-6c2c-4f20-9f20-05a0dff38c03",
+                        "name": "Heltall, inkl. negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478273",
+                        "name": "Heltall, uten negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478XXX",
+                        "name": "Tekststreng"
+                    },
+                    {
+                        "id": "49796e15-26a2-420a-aa3b-35c9f72cd125",
+                        "name": "Standard for kvalitet"
+                    },
+                    {
+                        "id": "49c54ebc-e742-488a-8a8a-c6fe63410e4f",
+                        "name": "Familieidentifiserendenummer"
+                    },
+                    {
+                        "id": "5930e972-250e-49f2-888d-f1aacaa550f0",
+                        "name": "11 sifret pseudonymiserte verdier"
+                    },
+                    {
+                        "id": "5b30542b-3ed0-4136-8d1e-ebb5097d35af",
+                        "name": "Classification of municipalities"
+                    },
+                    {
+                        "id": "72d3ea5e-4c7b-43f9-9b49-d4bbc945fb97",
+                        "name": "Tolvdeler"
+                    },
+                    {
+                        "id": "7c2c5846-0727-4a5d-8d07-c832bb14f9e2",
+                        "name": "Amount"
+                    },
+                    {
+                        "id": "9096149f-2bc2-4be9-a190-435570ca924a",
+                        "name": "Standard for sivilstand"
+                    },
+                    {
+                        "id": "DescribedValueDomain_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "a52fc2be-0fb5-41d2-9183-82b2f6929700",
+                        "name": "Year"
+                    },
+                    {
+                        "id": "a6f6d20d-e5eb-449b-8d52-b65c1b22c8ed",
+                        "name": "Standard for gruppering av familier"
+                    },
+                    {
+                        "id": "ae8edf6a-be4d-4c1c-930f-e6c9473cff95",
+                        "name": "Dato"
+                    },
+                    {
+                        "id": "b936a04e-c238-4f1c-83ef-b7e863d4cdbf",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "c14bf95e-a116-489b-827b-686650024930",
+                        "name": "F\u00f8dselsnummer"
+                    },
+                    {
+                        "id": "c1a40b5c-f8d4-4ed8-b137-60afc71afa0c",
+                        "name": "Standard for sentinelle verdier"
+                    },
+                    {
+                        "id": "d8358911-7f2d-45b6-83d0-9665e793448a",
+                        "name": "Standard for gruppering av husholdninger"
+                    },
+                    {
+                        "id": "d8cc8722-e5a1-4972-80b1-d00630b4e6ea",
+                        "name": "Standard for pensjonstype"
+                    },
+                    {
+                        "id": "e2db994a-c16a-45cf-92e6-e4f1e39581f4",
+                        "name": "Standard for land og statsborgerskap i personstatistikk"
+                    },
+                    {
+                        "id": "fcdd031c-59fe-4d11-96dc-2eceff091c74",
+                        "name": "Standard for behandlingsart"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "alminnt_e_sarfr",
+            "description": "a",
+            "dataStructureComponentType": {
+                "selected-enum": "MEASURE",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "RepresentedVariable_DUMMY",
+                "candidates": [
+                    {
+                        "id": "0a6724df-3e2d-4b70-a8f5-da1610d3066a",
+                        "name": "Behandlingsart"
+                    },
+                    {
+                        "id": "126cda90-0f6f-4585-b7d7-4cfb905aa3f5",
+                        "name": "Pensjonstype"
+                    },
+                    {
+                        "id": "1ac980d4-86cd-4352-a0c6-fb8aadbf5485",
+                        "name": "Alminnelig inntekt etter s\u00e6rfradrag"
+                    },
+                    {
+                        "id": "217a2c16-0a87-486c-b0c0-1580d9ad830a",
+                        "name": "Bruttoinntekt"
+                    },
+                    {
+                        "id": "2f0a69ff-bbb8-4ba2-a7e4-ab852327e1d4",
+                        "name": "\u00c5rstall"
+                    },
+                    {
+                        "id": "3b75d087-d1cd-4fb8-9350-676561a6aa69",
+                        "name": "Aggregert beloep"
+                    },
+                    {
+                        "id": "41a8af39-940e-439d-b6d2-fda21daa4061",
+                        "name": "Sivilstand"
+                    },
+                    {
+                        "id": "44246a25-fb7a-4464-846e-051e01e514f6",
+                        "name": "Kjonn"
+                    },
+                    {
+                        "id": "46d0c360-b9d7-4c44-8089-bc54b8e085d6",
+                        "name": "Skattepliktig bruttoformue"
+                    },
+                    {
+                        "id": "51d14a9d-cf08-4d12-a680-0e97a7288ef6",
+                        "name": "DataQuality"
+                    },
+                    {
+                        "id": "56a74b18-e0a3-4ad5-9608-9ed4aa90ce51",
+                        "name": "F\u00f8deland"
+                    },
+                    {
+                        "id": "56ff3daa-0566-499f-ab34-5623fed65889",
+                        "name": "Inntektsfradrag"
+                    },
+                    {
+                        "id": "5f2cb527-92c8-40a4-b6c1-d0009a97fd09",
+                        "name": "Husholdningsnummer"
+                    },
+                    {
+                        "id": "6cdecd72-c4a8-4b56-9c0a-9fd01c4fea56",
+                        "name": "NationalPersonIdentifier"
+                    },
+                    {
+                        "id": "70ad2c76-7a3d-459a-91f2-7f9a39e6cd76",
+                        "name": "Municipality of residence"
+                    },
+                    {
+                        "id": "84b1b9ad-0641-4827-ac04-e6e0cc2a94c3",
+                        "name": "Landkode"
+                    },
+                    {
+                        "id": "86e5df7f-53ab-4dfe-bdbf-9d285de79a05",
+                        "name": "Personens f\u00f8dselsdato i f\u00f8lge folkeregisteret"
+                    },
+                    {
+                        "id": "88ac22fd-3ad4-41f5-9498-2217300b5ad1",
+                        "name": "ole test"
+                    },
+                    {
+                        "id": "8a0e6412-0fb0-46ed-b2e9-e3294b05fa59",
+                        "name": "Municipality"
+                    },
+                    {
+                        "id": "950b417a-0b3c-4909-aa4b-5689a1378b8e",
+                        "name": "NationalFamilyIdentifier"
+                    },
+                    {
+                        "id": "97305f97-8451-4e5b-aa08-42bddba50faf",
+                        "name": "Skattepliktig nettoformue"
+                    },
+                    {
+                        "id": "9a3e274e-4a08-42f5-b7b3-d3e06eaa8e98",
+                        "name": "Fastsatt skatt"
+                    },
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "d0dbb7eb-e0ca-44d3-909f-1dd7a9cb3249",
+                        "name": "NumOfChildren"
+                    },
+                    {
+                        "id": "d3648cc7-4a62-4da0-a168-5287949fbf56",
+                        "name": "FamilyType"
+                    },
+                    {
+                        "id": "dd31ea3d-a8a9-4b74-869c-92cde75dbb75",
+                        "name": "Pseudonymisert personidentifikator "
+                    },
+                    {
+                        "id": "e46ede82-cc41-441c-bd77-f1925afbd342",
+                        "name": "Marital status"
+                    },
+                    {
+                        "id": "e4bb3dda-a7dc-4022-a4b5-733cb5ef11da",
+                        "name": "Yrkesinntekt"
+                    },
+                    {
+                        "id": "edd61ac9-f36b-4b28-bf3b-27a582111ae2",
+                        "name": "Skattekommune"
+                    },
+                    {
+                        "id": "f07f737d-7ec7-47cf-89a1-155bfda3a03e",
+                        "name": "Bostedskommune"
+                    },
+                    {
+                        "id": "f2bdc3f3-5275-40a6-897d-c00a494532fc",
+                        "name": "Skattleggingsperiode"
+                    },
+                    {
+                        "id": "f49d5132-8a59-463b-bafa-2743038a54a7",
+                        "name": "kim-test"
+                    },
+                    {
+                        "id": "fc391be7-5fb5-49d0-a60d-7b4c7c9e0c24",
+                        "name": "Organisasjonsnummer"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                "candidates": [
+                    {
+                        "id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                        "name": "Alle personer i folkeregisteret"
+                    },
+                    {
+                        "id": "697bad36-53e8-4e6d-9b3b-0593c95eccf8",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "7ef40579-469d-447f-8955-febb7b254b10",
+                        "name": "All families 2018-01-01"
+                    },
+                    {
+                        "id": "96869bb9-ebcd-4630-ab73-005a4c4b4674",
+                        "name": "Personer med skatteplikt til Norge i 2019"
+                    },
+                    {
+                        "id": "dfb6eecf-c4f4-4fa6-82a1-8b8684d560f4c",
+                        "name": "Persons with income 2018-01-01"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "03ff807e-3d11-456e-8030-4f7319389405",
+                "candidates": [
+                    {
+                        "id": "03ff807e-3d11-456e-8030-4f7319389405",
+                        "name": "Desimaltall, todesimaler"
+                    },
+                    {
+                        "id": "29e2238b-1e5d-46cc-b9dc-1a0f5ec5060d",
+                        "name": "Standard for kj\u00f8nn"
+                    },
+                    {
+                        "id": "38543109-4ed6-42d8-a112-b2c6debf8d07",
+                        "name": "Organisasjonsnummer"
+                    },
+                    {
+                        "id": "41124132-6c2c-4f20-9f20-05a0dff38c03",
+                        "name": "Heltall, inkl. negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478273",
+                        "name": "Heltall, uten negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478XXX",
+                        "name": "Tekststreng"
+                    },
+                    {
+                        "id": "49796e15-26a2-420a-aa3b-35c9f72cd125",
+                        "name": "Standard for kvalitet"
+                    },
+                    {
+                        "id": "49c54ebc-e742-488a-8a8a-c6fe63410e4f",
+                        "name": "Familieidentifiserendenummer"
+                    },
+                    {
+                        "id": "5930e972-250e-49f2-888d-f1aacaa550f0",
+                        "name": "11 sifret pseudonymiserte verdier"
+                    },
+                    {
+                        "id": "5b30542b-3ed0-4136-8d1e-ebb5097d35af",
+                        "name": "Classification of municipalities"
+                    },
+                    {
+                        "id": "72d3ea5e-4c7b-43f9-9b49-d4bbc945fb97",
+                        "name": "Tolvdeler"
+                    },
+                    {
+                        "id": "7c2c5846-0727-4a5d-8d07-c832bb14f9e2",
+                        "name": "Amount"
+                    },
+                    {
+                        "id": "9096149f-2bc2-4be9-a190-435570ca924a",
+                        "name": "Standard for sivilstand"
+                    },
+                    {
+                        "id": "DescribedValueDomain_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "a52fc2be-0fb5-41d2-9183-82b2f6929700",
+                        "name": "Year"
+                    },
+                    {
+                        "id": "a6f6d20d-e5eb-449b-8d52-b65c1b22c8ed",
+                        "name": "Standard for gruppering av familier"
+                    },
+                    {
+                        "id": "ae8edf6a-be4d-4c1c-930f-e6c9473cff95",
+                        "name": "Dato"
+                    },
+                    {
+                        "id": "b936a04e-c238-4f1c-83ef-b7e863d4cdbf",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "c14bf95e-a116-489b-827b-686650024930",
+                        "name": "F\u00f8dselsnummer"
+                    },
+                    {
+                        "id": "c1a40b5c-f8d4-4ed8-b137-60afc71afa0c",
+                        "name": "Standard for sentinelle verdier"
+                    },
+                    {
+                        "id": "d8358911-7f2d-45b6-83d0-9665e793448a",
+                        "name": "Standard for gruppering av husholdninger"
+                    },
+                    {
+                        "id": "d8cc8722-e5a1-4972-80b1-d00630b4e6ea",
+                        "name": "Standard for pensjonstype"
+                    },
+                    {
+                        "id": "e2db994a-c16a-45cf-92e6-e4f1e39581f4",
+                        "name": "Standard for land og statsborgerskap i personstatistikk"
+                    },
+                    {
+                        "id": "fcdd031c-59fe-4d11-96dc-2eceff091c74",
+                        "name": "Standard for behandlingsart"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "inntektsfradrag",
+            "description": "i",
+            "dataStructureComponentType": {
+                "selected-enum": "MEASURE",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "RepresentedVariable_DUMMY",
+                "candidates": [
+                    {
+                        "id": "0a6724df-3e2d-4b70-a8f5-da1610d3066a",
+                        "name": "Behandlingsart"
+                    },
+                    {
+                        "id": "126cda90-0f6f-4585-b7d7-4cfb905aa3f5",
+                        "name": "Pensjonstype"
+                    },
+                    {
+                        "id": "1ac980d4-86cd-4352-a0c6-fb8aadbf5485",
+                        "name": "Alminnelig inntekt etter s\u00e6rfradrag"
+                    },
+                    {
+                        "id": "217a2c16-0a87-486c-b0c0-1580d9ad830a",
+                        "name": "Bruttoinntekt"
+                    },
+                    {
+                        "id": "2f0a69ff-bbb8-4ba2-a7e4-ab852327e1d4",
+                        "name": "\u00c5rstall"
+                    },
+                    {
+                        "id": "3b75d087-d1cd-4fb8-9350-676561a6aa69",
+                        "name": "Aggregert beloep"
+                    },
+                    {
+                        "id": "41a8af39-940e-439d-b6d2-fda21daa4061",
+                        "name": "Sivilstand"
+                    },
+                    {
+                        "id": "44246a25-fb7a-4464-846e-051e01e514f6",
+                        "name": "Kjonn"
+                    },
+                    {
+                        "id": "46d0c360-b9d7-4c44-8089-bc54b8e085d6",
+                        "name": "Skattepliktig bruttoformue"
+                    },
+                    {
+                        "id": "51d14a9d-cf08-4d12-a680-0e97a7288ef6",
+                        "name": "DataQuality"
+                    },
+                    {
+                        "id": "56a74b18-e0a3-4ad5-9608-9ed4aa90ce51",
+                        "name": "F\u00f8deland"
+                    },
+                    {
+                        "id": "56ff3daa-0566-499f-ab34-5623fed65889",
+                        "name": "Inntektsfradrag"
+                    },
+                    {
+                        "id": "5f2cb527-92c8-40a4-b6c1-d0009a97fd09",
+                        "name": "Husholdningsnummer"
+                    },
+                    {
+                        "id": "6cdecd72-c4a8-4b56-9c0a-9fd01c4fea56",
+                        "name": "NationalPersonIdentifier"
+                    },
+                    {
+                        "id": "70ad2c76-7a3d-459a-91f2-7f9a39e6cd76",
+                        "name": "Municipality of residence"
+                    },
+                    {
+                        "id": "84b1b9ad-0641-4827-ac04-e6e0cc2a94c3",
+                        "name": "Landkode"
+                    },
+                    {
+                        "id": "86e5df7f-53ab-4dfe-bdbf-9d285de79a05",
+                        "name": "Personens f\u00f8dselsdato i f\u00f8lge folkeregisteret"
+                    },
+                    {
+                        "id": "88ac22fd-3ad4-41f5-9498-2217300b5ad1",
+                        "name": "ole test"
+                    },
+                    {
+                        "id": "8a0e6412-0fb0-46ed-b2e9-e3294b05fa59",
+                        "name": "Municipality"
+                    },
+                    {
+                        "id": "950b417a-0b3c-4909-aa4b-5689a1378b8e",
+                        "name": "NationalFamilyIdentifier"
+                    },
+                    {
+                        "id": "97305f97-8451-4e5b-aa08-42bddba50faf",
+                        "name": "Skattepliktig nettoformue"
+                    },
+                    {
+                        "id": "9a3e274e-4a08-42f5-b7b3-d3e06eaa8e98",
+                        "name": "Fastsatt skatt"
+                    },
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "d0dbb7eb-e0ca-44d3-909f-1dd7a9cb3249",
+                        "name": "NumOfChildren"
+                    },
+                    {
+                        "id": "d3648cc7-4a62-4da0-a168-5287949fbf56",
+                        "name": "FamilyType"
+                    },
+                    {
+                        "id": "dd31ea3d-a8a9-4b74-869c-92cde75dbb75",
+                        "name": "Pseudonymisert personidentifikator "
+                    },
+                    {
+                        "id": "e46ede82-cc41-441c-bd77-f1925afbd342",
+                        "name": "Marital status"
+                    },
+                    {
+                        "id": "e4bb3dda-a7dc-4022-a4b5-733cb5ef11da",
+                        "name": "Yrkesinntekt"
+                    },
+                    {
+                        "id": "edd61ac9-f36b-4b28-bf3b-27a582111ae2",
+                        "name": "Skattekommune"
+                    },
+                    {
+                        "id": "f07f737d-7ec7-47cf-89a1-155bfda3a03e",
+                        "name": "Bostedskommune"
+                    },
+                    {
+                        "id": "f2bdc3f3-5275-40a6-897d-c00a494532fc",
+                        "name": "Skattleggingsperiode"
+                    },
+                    {
+                        "id": "f49d5132-8a59-463b-bafa-2743038a54a7",
+                        "name": "kim-test"
+                    },
+                    {
+                        "id": "fc391be7-5fb5-49d0-a60d-7b4c7c9e0c24",
+                        "name": "Organisasjonsnummer"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                "candidates": [
+                    {
+                        "id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                        "name": "Alle personer i folkeregisteret"
+                    },
+                    {
+                        "id": "697bad36-53e8-4e6d-9b3b-0593c95eccf8",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "7ef40579-469d-447f-8955-febb7b254b10",
+                        "name": "All families 2018-01-01"
+                    },
+                    {
+                        "id": "96869bb9-ebcd-4630-ab73-005a4c4b4674",
+                        "name": "Personer med skatteplikt til Norge i 2019"
+                    },
+                    {
+                        "id": "dfb6eecf-c4f4-4fa6-82a1-8b8684d560f4c",
+                        "name": "Persons with income 2018-01-01"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "03ff807e-3d11-456e-8030-4f7319389405",
+                "candidates": [
+                    {
+                        "id": "03ff807e-3d11-456e-8030-4f7319389405",
+                        "name": "Desimaltall, todesimaler"
+                    },
+                    {
+                        "id": "29e2238b-1e5d-46cc-b9dc-1a0f5ec5060d",
+                        "name": "Standard for kj\u00f8nn"
+                    },
+                    {
+                        "id": "38543109-4ed6-42d8-a112-b2c6debf8d07",
+                        "name": "Organisasjonsnummer"
+                    },
+                    {
+                        "id": "41124132-6c2c-4f20-9f20-05a0dff38c03",
+                        "name": "Heltall, inkl. negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478273",
+                        "name": "Heltall, uten negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478XXX",
+                        "name": "Tekststreng"
+                    },
+                    {
+                        "id": "49796e15-26a2-420a-aa3b-35c9f72cd125",
+                        "name": "Standard for kvalitet"
+                    },
+                    {
+                        "id": "49c54ebc-e742-488a-8a8a-c6fe63410e4f",
+                        "name": "Familieidentifiserendenummer"
+                    },
+                    {
+                        "id": "5930e972-250e-49f2-888d-f1aacaa550f0",
+                        "name": "11 sifret pseudonymiserte verdier"
+                    },
+                    {
+                        "id": "5b30542b-3ed0-4136-8d1e-ebb5097d35af",
+                        "name": "Classification of municipalities"
+                    },
+                    {
+                        "id": "72d3ea5e-4c7b-43f9-9b49-d4bbc945fb97",
+                        "name": "Tolvdeler"
+                    },
+                    {
+                        "id": "7c2c5846-0727-4a5d-8d07-c832bb14f9e2",
+                        "name": "Amount"
+                    },
+                    {
+                        "id": "9096149f-2bc2-4be9-a190-435570ca924a",
+                        "name": "Standard for sivilstand"
+                    },
+                    {
+                        "id": "DescribedValueDomain_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "a52fc2be-0fb5-41d2-9183-82b2f6929700",
+                        "name": "Year"
+                    },
+                    {
+                        "id": "a6f6d20d-e5eb-449b-8d52-b65c1b22c8ed",
+                        "name": "Standard for gruppering av familier"
+                    },
+                    {
+                        "id": "ae8edf6a-be4d-4c1c-930f-e6c9473cff95",
+                        "name": "Dato"
+                    },
+                    {
+                        "id": "b936a04e-c238-4f1c-83ef-b7e863d4cdbf",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "c14bf95e-a116-489b-827b-686650024930",
+                        "name": "F\u00f8dselsnummer"
+                    },
+                    {
+                        "id": "c1a40b5c-f8d4-4ed8-b137-60afc71afa0c",
+                        "name": "Standard for sentinelle verdier"
+                    },
+                    {
+                        "id": "d8358911-7f2d-45b6-83d0-9665e793448a",
+                        "name": "Standard for gruppering av husholdninger"
+                    },
+                    {
+                        "id": "d8cc8722-e5a1-4972-80b1-d00630b4e6ea",
+                        "name": "Standard for pensjonstype"
+                    },
+                    {
+                        "id": "e2db994a-c16a-45cf-92e6-e4f1e39581f4",
+                        "name": "Standard for land og statsborgerskap i personstatistikk"
+                    },
+                    {
+                        "id": "fcdd031c-59fe-4d11-96dc-2eceff091c74",
+                        "name": "Standard for behandlingsart"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "bruttoformue",
+            "description": "br",
+            "dataStructureComponentType": {
+                "selected-enum": "MEASURE",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "RepresentedVariable_DUMMY",
+                "candidates": [
+                    {
+                        "id": "0a6724df-3e2d-4b70-a8f5-da1610d3066a",
+                        "name": "Behandlingsart"
+                    },
+                    {
+                        "id": "126cda90-0f6f-4585-b7d7-4cfb905aa3f5",
+                        "name": "Pensjonstype"
+                    },
+                    {
+                        "id": "1ac980d4-86cd-4352-a0c6-fb8aadbf5485",
+                        "name": "Alminnelig inntekt etter s\u00e6rfradrag"
+                    },
+                    {
+                        "id": "217a2c16-0a87-486c-b0c0-1580d9ad830a",
+                        "name": "Bruttoinntekt"
+                    },
+                    {
+                        "id": "2f0a69ff-bbb8-4ba2-a7e4-ab852327e1d4",
+                        "name": "\u00c5rstall"
+                    },
+                    {
+                        "id": "3b75d087-d1cd-4fb8-9350-676561a6aa69",
+                        "name": "Aggregert beloep"
+                    },
+                    {
+                        "id": "41a8af39-940e-439d-b6d2-fda21daa4061",
+                        "name": "Sivilstand"
+                    },
+                    {
+                        "id": "44246a25-fb7a-4464-846e-051e01e514f6",
+                        "name": "Kjonn"
+                    },
+                    {
+                        "id": "46d0c360-b9d7-4c44-8089-bc54b8e085d6",
+                        "name": "Skattepliktig bruttoformue"
+                    },
+                    {
+                        "id": "51d14a9d-cf08-4d12-a680-0e97a7288ef6",
+                        "name": "DataQuality"
+                    },
+                    {
+                        "id": "56a74b18-e0a3-4ad5-9608-9ed4aa90ce51",
+                        "name": "F\u00f8deland"
+                    },
+                    {
+                        "id": "56ff3daa-0566-499f-ab34-5623fed65889",
+                        "name": "Inntektsfradrag"
+                    },
+                    {
+                        "id": "5f2cb527-92c8-40a4-b6c1-d0009a97fd09",
+                        "name": "Husholdningsnummer"
+                    },
+                    {
+                        "id": "6cdecd72-c4a8-4b56-9c0a-9fd01c4fea56",
+                        "name": "NationalPersonIdentifier"
+                    },
+                    {
+                        "id": "70ad2c76-7a3d-459a-91f2-7f9a39e6cd76",
+                        "name": "Municipality of residence"
+                    },
+                    {
+                        "id": "84b1b9ad-0641-4827-ac04-e6e0cc2a94c3",
+                        "name": "Landkode"
+                    },
+                    {
+                        "id": "86e5df7f-53ab-4dfe-bdbf-9d285de79a05",
+                        "name": "Personens f\u00f8dselsdato i f\u00f8lge folkeregisteret"
+                    },
+                    {
+                        "id": "88ac22fd-3ad4-41f5-9498-2217300b5ad1",
+                        "name": "ole test"
+                    },
+                    {
+                        "id": "8a0e6412-0fb0-46ed-b2e9-e3294b05fa59",
+                        "name": "Municipality"
+                    },
+                    {
+                        "id": "950b417a-0b3c-4909-aa4b-5689a1378b8e",
+                        "name": "NationalFamilyIdentifier"
+                    },
+                    {
+                        "id": "97305f97-8451-4e5b-aa08-42bddba50faf",
+                        "name": "Skattepliktig nettoformue"
+                    },
+                    {
+                        "id": "9a3e274e-4a08-42f5-b7b3-d3e06eaa8e98",
+                        "name": "Fastsatt skatt"
+                    },
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "d0dbb7eb-e0ca-44d3-909f-1dd7a9cb3249",
+                        "name": "NumOfChildren"
+                    },
+                    {
+                        "id": "d3648cc7-4a62-4da0-a168-5287949fbf56",
+                        "name": "FamilyType"
+                    },
+                    {
+                        "id": "dd31ea3d-a8a9-4b74-869c-92cde75dbb75",
+                        "name": "Pseudonymisert personidentifikator "
+                    },
+                    {
+                        "id": "e46ede82-cc41-441c-bd77-f1925afbd342",
+                        "name": "Marital status"
+                    },
+                    {
+                        "id": "e4bb3dda-a7dc-4022-a4b5-733cb5ef11da",
+                        "name": "Yrkesinntekt"
+                    },
+                    {
+                        "id": "edd61ac9-f36b-4b28-bf3b-27a582111ae2",
+                        "name": "Skattekommune"
+                    },
+                    {
+                        "id": "f07f737d-7ec7-47cf-89a1-155bfda3a03e",
+                        "name": "Bostedskommune"
+                    },
+                    {
+                        "id": "f2bdc3f3-5275-40a6-897d-c00a494532fc",
+                        "name": "Skattleggingsperiode"
+                    },
+                    {
+                        "id": "f49d5132-8a59-463b-bafa-2743038a54a7",
+                        "name": "kim-test"
+                    },
+                    {
+                        "id": "fc391be7-5fb5-49d0-a60d-7b4c7c9e0c24",
+                        "name": "Organisasjonsnummer"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                "candidates": [
+                    {
+                        "id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                        "name": "Alle personer i folkeregisteret"
+                    },
+                    {
+                        "id": "697bad36-53e8-4e6d-9b3b-0593c95eccf8",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "7ef40579-469d-447f-8955-febb7b254b10",
+                        "name": "All families 2018-01-01"
+                    },
+                    {
+                        "id": "96869bb9-ebcd-4630-ab73-005a4c4b4674",
+                        "name": "Personer med skatteplikt til Norge i 2019"
+                    },
+                    {
+                        "id": "dfb6eecf-c4f4-4fa6-82a1-8b8684d560f4c",
+                        "name": "Persons with income 2018-01-01"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "03ff807e-3d11-456e-8030-4f7319389405",
+                "candidates": [
+                    {
+                        "id": "03ff807e-3d11-456e-8030-4f7319389405",
+                        "name": "Desimaltall, todesimaler"
+                    },
+                    {
+                        "id": "29e2238b-1e5d-46cc-b9dc-1a0f5ec5060d",
+                        "name": "Standard for kj\u00f8nn"
+                    },
+                    {
+                        "id": "38543109-4ed6-42d8-a112-b2c6debf8d07",
+                        "name": "Organisasjonsnummer"
+                    },
+                    {
+                        "id": "41124132-6c2c-4f20-9f20-05a0dff38c03",
+                        "name": "Heltall, inkl. negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478273",
+                        "name": "Heltall, uten negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478XXX",
+                        "name": "Tekststreng"
+                    },
+                    {
+                        "id": "49796e15-26a2-420a-aa3b-35c9f72cd125",
+                        "name": "Standard for kvalitet"
+                    },
+                    {
+                        "id": "49c54ebc-e742-488a-8a8a-c6fe63410e4f",
+                        "name": "Familieidentifiserendenummer"
+                    },
+                    {
+                        "id": "5930e972-250e-49f2-888d-f1aacaa550f0",
+                        "name": "11 sifret pseudonymiserte verdier"
+                    },
+                    {
+                        "id": "5b30542b-3ed0-4136-8d1e-ebb5097d35af",
+                        "name": "Classification of municipalities"
+                    },
+                    {
+                        "id": "72d3ea5e-4c7b-43f9-9b49-d4bbc945fb97",
+                        "name": "Tolvdeler"
+                    },
+                    {
+                        "id": "7c2c5846-0727-4a5d-8d07-c832bb14f9e2",
+                        "name": "Amount"
+                    },
+                    {
+                        "id": "9096149f-2bc2-4be9-a190-435570ca924a",
+                        "name": "Standard for sivilstand"
+                    },
+                    {
+                        "id": "DescribedValueDomain_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "a52fc2be-0fb5-41d2-9183-82b2f6929700",
+                        "name": "Year"
+                    },
+                    {
+                        "id": "a6f6d20d-e5eb-449b-8d52-b65c1b22c8ed",
+                        "name": "Standard for gruppering av familier"
+                    },
+                    {
+                        "id": "ae8edf6a-be4d-4c1c-930f-e6c9473cff95",
+                        "name": "Dato"
+                    },
+                    {
+                        "id": "b936a04e-c238-4f1c-83ef-b7e863d4cdbf",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "c14bf95e-a116-489b-827b-686650024930",
+                        "name": "F\u00f8dselsnummer"
+                    },
+                    {
+                        "id": "c1a40b5c-f8d4-4ed8-b137-60afc71afa0c",
+                        "name": "Standard for sentinelle verdier"
+                    },
+                    {
+                        "id": "d8358911-7f2d-45b6-83d0-9665e793448a",
+                        "name": "Standard for gruppering av husholdninger"
+                    },
+                    {
+                        "id": "d8cc8722-e5a1-4972-80b1-d00630b4e6ea",
+                        "name": "Standard for pensjonstype"
+                    },
+                    {
+                        "id": "e2db994a-c16a-45cf-92e6-e4f1e39581f4",
+                        "name": "Standard for land og statsborgerskap i personstatistikk"
+                    },
+                    {
+                        "id": "fcdd031c-59fe-4d11-96dc-2eceff091c74",
+                        "name": "Standard for behandlingsart"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "nettoformue",
+            "description": "n",
+            "dataStructureComponentType": {
+                "selected-enum": "MEASURE",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "RepresentedVariable_DUMMY",
+                "candidates": [
+                    {
+                        "id": "0a6724df-3e2d-4b70-a8f5-da1610d3066a",
+                        "name": "Behandlingsart"
+                    },
+                    {
+                        "id": "126cda90-0f6f-4585-b7d7-4cfb905aa3f5",
+                        "name": "Pensjonstype"
+                    },
+                    {
+                        "id": "1ac980d4-86cd-4352-a0c6-fb8aadbf5485",
+                        "name": "Alminnelig inntekt etter s\u00e6rfradrag"
+                    },
+                    {
+                        "id": "217a2c16-0a87-486c-b0c0-1580d9ad830a",
+                        "name": "Bruttoinntekt"
+                    },
+                    {
+                        "id": "2f0a69ff-bbb8-4ba2-a7e4-ab852327e1d4",
+                        "name": "\u00c5rstall"
+                    },
+                    {
+                        "id": "3b75d087-d1cd-4fb8-9350-676561a6aa69",
+                        "name": "Aggregert beloep"
+                    },
+                    {
+                        "id": "41a8af39-940e-439d-b6d2-fda21daa4061",
+                        "name": "Sivilstand"
+                    },
+                    {
+                        "id": "44246a25-fb7a-4464-846e-051e01e514f6",
+                        "name": "Kjonn"
+                    },
+                    {
+                        "id": "46d0c360-b9d7-4c44-8089-bc54b8e085d6",
+                        "name": "Skattepliktig bruttoformue"
+                    },
+                    {
+                        "id": "51d14a9d-cf08-4d12-a680-0e97a7288ef6",
+                        "name": "DataQuality"
+                    },
+                    {
+                        "id": "56a74b18-e0a3-4ad5-9608-9ed4aa90ce51",
+                        "name": "F\u00f8deland"
+                    },
+                    {
+                        "id": "56ff3daa-0566-499f-ab34-5623fed65889",
+                        "name": "Inntektsfradrag"
+                    },
+                    {
+                        "id": "5f2cb527-92c8-40a4-b6c1-d0009a97fd09",
+                        "name": "Husholdningsnummer"
+                    },
+                    {
+                        "id": "6cdecd72-c4a8-4b56-9c0a-9fd01c4fea56",
+                        "name": "NationalPersonIdentifier"
+                    },
+                    {
+                        "id": "70ad2c76-7a3d-459a-91f2-7f9a39e6cd76",
+                        "name": "Municipality of residence"
+                    },
+                    {
+                        "id": "84b1b9ad-0641-4827-ac04-e6e0cc2a94c3",
+                        "name": "Landkode"
+                    },
+                    {
+                        "id": "86e5df7f-53ab-4dfe-bdbf-9d285de79a05",
+                        "name": "Personens f\u00f8dselsdato i f\u00f8lge folkeregisteret"
+                    },
+                    {
+                        "id": "88ac22fd-3ad4-41f5-9498-2217300b5ad1",
+                        "name": "ole test"
+                    },
+                    {
+                        "id": "8a0e6412-0fb0-46ed-b2e9-e3294b05fa59",
+                        "name": "Municipality"
+                    },
+                    {
+                        "id": "950b417a-0b3c-4909-aa4b-5689a1378b8e",
+                        "name": "NationalFamilyIdentifier"
+                    },
+                    {
+                        "id": "97305f97-8451-4e5b-aa08-42bddba50faf",
+                        "name": "Skattepliktig nettoformue"
+                    },
+                    {
+                        "id": "9a3e274e-4a08-42f5-b7b3-d3e06eaa8e98",
+                        "name": "Fastsatt skatt"
+                    },
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "d0dbb7eb-e0ca-44d3-909f-1dd7a9cb3249",
+                        "name": "NumOfChildren"
+                    },
+                    {
+                        "id": "d3648cc7-4a62-4da0-a168-5287949fbf56",
+                        "name": "FamilyType"
+                    },
+                    {
+                        "id": "dd31ea3d-a8a9-4b74-869c-92cde75dbb75",
+                        "name": "Pseudonymisert personidentifikator "
+                    },
+                    {
+                        "id": "e46ede82-cc41-441c-bd77-f1925afbd342",
+                        "name": "Marital status"
+                    },
+                    {
+                        "id": "e4bb3dda-a7dc-4022-a4b5-733cb5ef11da",
+                        "name": "Yrkesinntekt"
+                    },
+                    {
+                        "id": "edd61ac9-f36b-4b28-bf3b-27a582111ae2",
+                        "name": "Skattekommune"
+                    },
+                    {
+                        "id": "f07f737d-7ec7-47cf-89a1-155bfda3a03e",
+                        "name": "Bostedskommune"
+                    },
+                    {
+                        "id": "f2bdc3f3-5275-40a6-897d-c00a494532fc",
+                        "name": "Skattleggingsperiode"
+                    },
+                    {
+                        "id": "f49d5132-8a59-463b-bafa-2743038a54a7",
+                        "name": "kim-test"
+                    },
+                    {
+                        "id": "fc391be7-5fb5-49d0-a60d-7b4c7c9e0c24",
+                        "name": "Organisasjonsnummer"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                "candidates": [
+                    {
+                        "id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                        "name": "Alle personer i folkeregisteret"
+                    },
+                    {
+                        "id": "697bad36-53e8-4e6d-9b3b-0593c95eccf8",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "7ef40579-469d-447f-8955-febb7b254b10",
+                        "name": "All families 2018-01-01"
+                    },
+                    {
+                        "id": "96869bb9-ebcd-4630-ab73-005a4c4b4674",
+                        "name": "Personer med skatteplikt til Norge i 2019"
+                    },
+                    {
+                        "id": "dfb6eecf-c4f4-4fa6-82a1-8b8684d560f4c",
+                        "name": "Persons with income 2018-01-01"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "03ff807e-3d11-456e-8030-4f7319389405",
+                "candidates": [
+                    {
+                        "id": "03ff807e-3d11-456e-8030-4f7319389405",
+                        "name": "Desimaltall, todesimaler"
+                    },
+                    {
+                        "id": "29e2238b-1e5d-46cc-b9dc-1a0f5ec5060d",
+                        "name": "Standard for kj\u00f8nn"
+                    },
+                    {
+                        "id": "38543109-4ed6-42d8-a112-b2c6debf8d07",
+                        "name": "Organisasjonsnummer"
+                    },
+                    {
+                        "id": "41124132-6c2c-4f20-9f20-05a0dff38c03",
+                        "name": "Heltall, inkl. negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478273",
+                        "name": "Heltall, uten negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478XXX",
+                        "name": "Tekststreng"
+                    },
+                    {
+                        "id": "49796e15-26a2-420a-aa3b-35c9f72cd125",
+                        "name": "Standard for kvalitet"
+                    },
+                    {
+                        "id": "49c54ebc-e742-488a-8a8a-c6fe63410e4f",
+                        "name": "Familieidentifiserendenummer"
+                    },
+                    {
+                        "id": "5930e972-250e-49f2-888d-f1aacaa550f0",
+                        "name": "11 sifret pseudonymiserte verdier"
+                    },
+                    {
+                        "id": "5b30542b-3ed0-4136-8d1e-ebb5097d35af",
+                        "name": "Classification of municipalities"
+                    },
+                    {
+                        "id": "72d3ea5e-4c7b-43f9-9b49-d4bbc945fb97",
+                        "name": "Tolvdeler"
+                    },
+                    {
+                        "id": "7c2c5846-0727-4a5d-8d07-c832bb14f9e2",
+                        "name": "Amount"
+                    },
+                    {
+                        "id": "9096149f-2bc2-4be9-a190-435570ca924a",
+                        "name": "Standard for sivilstand"
+                    },
+                    {
+                        "id": "DescribedValueDomain_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "a52fc2be-0fb5-41d2-9183-82b2f6929700",
+                        "name": "Year"
+                    },
+                    {
+                        "id": "a6f6d20d-e5eb-449b-8d52-b65c1b22c8ed",
+                        "name": "Standard for gruppering av familier"
+                    },
+                    {
+                        "id": "ae8edf6a-be4d-4c1c-930f-e6c9473cff95",
+                        "name": "Dato"
+                    },
+                    {
+                        "id": "b936a04e-c238-4f1c-83ef-b7e863d4cdbf",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "c14bf95e-a116-489b-827b-686650024930",
+                        "name": "F\u00f8dselsnummer"
+                    },
+                    {
+                        "id": "c1a40b5c-f8d4-4ed8-b137-60afc71afa0c",
+                        "name": "Standard for sentinelle verdier"
+                    },
+                    {
+                        "id": "d8358911-7f2d-45b6-83d0-9665e793448a",
+                        "name": "Standard for gruppering av husholdninger"
+                    },
+                    {
+                        "id": "d8cc8722-e5a1-4972-80b1-d00630b4e6ea",
+                        "name": "Standard for pensjonstype"
+                    },
+                    {
+                        "id": "e2db994a-c16a-45cf-92e6-e4f1e39581f4",
+                        "name": "Standard for land og statsborgerskap i personstatistikk"
+                    },
+                    {
+                        "id": "fcdd031c-59fe-4d11-96dc-2eceff091c74",
+                        "name": "Standard for behandlingsart"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "skatt_fastsatt",
+            "description": "sk",
+            "dataStructureComponentType": {
+                "selected-enum": "MEASURE",
+                "enums": [
+                    "IDENTIFIER",
+                    "MEASURE",
+                    "ATTRIBUTE"
+                ]
+            },
+            "representedVariable": {
+                "concept-type": "RepresentedVariable",
+                "selected-id": "RepresentedVariable_DUMMY",
+                "candidates": [
+                    {
+                        "id": "0a6724df-3e2d-4b70-a8f5-da1610d3066a",
+                        "name": "Behandlingsart"
+                    },
+                    {
+                        "id": "126cda90-0f6f-4585-b7d7-4cfb905aa3f5",
+                        "name": "Pensjonstype"
+                    },
+                    {
+                        "id": "1ac980d4-86cd-4352-a0c6-fb8aadbf5485",
+                        "name": "Alminnelig inntekt etter s\u00e6rfradrag"
+                    },
+                    {
+                        "id": "217a2c16-0a87-486c-b0c0-1580d9ad830a",
+                        "name": "Bruttoinntekt"
+                    },
+                    {
+                        "id": "2f0a69ff-bbb8-4ba2-a7e4-ab852327e1d4",
+                        "name": "\u00c5rstall"
+                    },
+                    {
+                        "id": "3b75d087-d1cd-4fb8-9350-676561a6aa69",
+                        "name": "Aggregert beloep"
+                    },
+                    {
+                        "id": "41a8af39-940e-439d-b6d2-fda21daa4061",
+                        "name": "Sivilstand"
+                    },
+                    {
+                        "id": "44246a25-fb7a-4464-846e-051e01e514f6",
+                        "name": "Kjonn"
+                    },
+                    {
+                        "id": "46d0c360-b9d7-4c44-8089-bc54b8e085d6",
+                        "name": "Skattepliktig bruttoformue"
+                    },
+                    {
+                        "id": "51d14a9d-cf08-4d12-a680-0e97a7288ef6",
+                        "name": "DataQuality"
+                    },
+                    {
+                        "id": "56a74b18-e0a3-4ad5-9608-9ed4aa90ce51",
+                        "name": "F\u00f8deland"
+                    },
+                    {
+                        "id": "56ff3daa-0566-499f-ab34-5623fed65889",
+                        "name": "Inntektsfradrag"
+                    },
+                    {
+                        "id": "5f2cb527-92c8-40a4-b6c1-d0009a97fd09",
+                        "name": "Husholdningsnummer"
+                    },
+                    {
+                        "id": "6cdecd72-c4a8-4b56-9c0a-9fd01c4fea56",
+                        "name": "NationalPersonIdentifier"
+                    },
+                    {
+                        "id": "70ad2c76-7a3d-459a-91f2-7f9a39e6cd76",
+                        "name": "Municipality of residence"
+                    },
+                    {
+                        "id": "84b1b9ad-0641-4827-ac04-e6e0cc2a94c3",
+                        "name": "Landkode"
+                    },
+                    {
+                        "id": "86e5df7f-53ab-4dfe-bdbf-9d285de79a05",
+                        "name": "Personens f\u00f8dselsdato i f\u00f8lge folkeregisteret"
+                    },
+                    {
+                        "id": "88ac22fd-3ad4-41f5-9498-2217300b5ad1",
+                        "name": "ole test"
+                    },
+                    {
+                        "id": "8a0e6412-0fb0-46ed-b2e9-e3294b05fa59",
+                        "name": "Municipality"
+                    },
+                    {
+                        "id": "950b417a-0b3c-4909-aa4b-5689a1378b8e",
+                        "name": "NationalFamilyIdentifier"
+                    },
+                    {
+                        "id": "97305f97-8451-4e5b-aa08-42bddba50faf",
+                        "name": "Skattepliktig nettoformue"
+                    },
+                    {
+                        "id": "9a3e274e-4a08-42f5-b7b3-d3e06eaa8e98",
+                        "name": "Fastsatt skatt"
+                    },
+                    {
+                        "id": "RepresentedVariable_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "d0dbb7eb-e0ca-44d3-909f-1dd7a9cb3249",
+                        "name": "NumOfChildren"
+                    },
+                    {
+                        "id": "d3648cc7-4a62-4da0-a168-5287949fbf56",
+                        "name": "FamilyType"
+                    },
+                    {
+                        "id": "dd31ea3d-a8a9-4b74-869c-92cde75dbb75",
+                        "name": "Pseudonymisert personidentifikator "
+                    },
+                    {
+                        "id": "e46ede82-cc41-441c-bd77-f1925afbd342",
+                        "name": "Marital status"
+                    },
+                    {
+                        "id": "e4bb3dda-a7dc-4022-a4b5-733cb5ef11da",
+                        "name": "Yrkesinntekt"
+                    },
+                    {
+                        "id": "edd61ac9-f36b-4b28-bf3b-27a582111ae2",
+                        "name": "Skattekommune"
+                    },
+                    {
+                        "id": "f07f737d-7ec7-47cf-89a1-155bfda3a03e",
+                        "name": "Bostedskommune"
+                    },
+                    {
+                        "id": "f2bdc3f3-5275-40a6-897d-c00a494532fc",
+                        "name": "Skattleggingsperiode"
+                    },
+                    {
+                        "id": "f49d5132-8a59-463b-bafa-2743038a54a7",
+                        "name": "kim-test"
+                    },
+                    {
+                        "id": "fc391be7-5fb5-49d0-a60d-7b4c7c9e0c24",
+                        "name": "Organisasjonsnummer"
+                    }
+                ]
+            },
+            "population": {
+                "concept-type": "Population",
+                "selected-id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                "candidates": [
+                    {
+                        "id": "2aa9ab12-63ca-4458-aa00-95ea287bf2a5",
+                        "name": "Alle personer i folkeregisteret"
+                    },
+                    {
+                        "id": "697bad36-53e8-4e6d-9b3b-0593c95eccf8",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "7ef40579-469d-447f-8955-febb7b254b10",
+                        "name": "All families 2018-01-01"
+                    },
+                    {
+                        "id": "96869bb9-ebcd-4630-ab73-005a4c4b4674",
+                        "name": "Personer med skatteplikt til Norge i 2019"
+                    },
+                    {
+                        "id": "dfb6eecf-c4f4-4fa6-82a1-8b8684d560f4c",
+                        "name": "Persons with income 2018-01-01"
+                    }
+                ]
+            },
+            "sentinelValueDomain": {
+                "concept-type": "EnumeratedValueDomain,DescribedValueDomain",
+                "selected-id": "03ff807e-3d11-456e-8030-4f7319389405",
+                "candidates": [
+                    {
+                        "id": "03ff807e-3d11-456e-8030-4f7319389405",
+                        "name": "Desimaltall, todesimaler"
+                    },
+                    {
+                        "id": "29e2238b-1e5d-46cc-b9dc-1a0f5ec5060d",
+                        "name": "Standard for kj\u00f8nn"
+                    },
+                    {
+                        "id": "38543109-4ed6-42d8-a112-b2c6debf8d07",
+                        "name": "Organisasjonsnummer"
+                    },
+                    {
+                        "id": "41124132-6c2c-4f20-9f20-05a0dff38c03",
+                        "name": "Heltall, inkl. negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478273",
+                        "name": "Heltall, uten negative verdier"
+                    },
+                    {
+                        "id": "42c799a6-952f-4504-abe2-92f2bd478XXX",
+                        "name": "Tekststreng"
+                    },
+                    {
+                        "id": "49796e15-26a2-420a-aa3b-35c9f72cd125",
+                        "name": "Standard for kvalitet"
+                    },
+                    {
+                        "id": "49c54ebc-e742-488a-8a8a-c6fe63410e4f",
+                        "name": "Familieidentifiserendenummer"
+                    },
+                    {
+                        "id": "5930e972-250e-49f2-888d-f1aacaa550f0",
+                        "name": "11 sifret pseudonymiserte verdier"
+                    },
+                    {
+                        "id": "5b30542b-3ed0-4136-8d1e-ebb5097d35af",
+                        "name": "Classification of municipalities"
+                    },
+                    {
+                        "id": "72d3ea5e-4c7b-43f9-9b49-d4bbc945fb97",
+                        "name": "Tolvdeler"
+                    },
+                    {
+                        "id": "7c2c5846-0727-4a5d-8d07-c832bb14f9e2",
+                        "name": "Amount"
+                    },
+                    {
+                        "id": "9096149f-2bc2-4be9-a190-435570ca924a",
+                        "name": "Standard for sivilstand"
+                    },
+                    {
+                        "id": "DescribedValueDomain_DUMMY",
+                        "name": "-- ikke angitt --"
+                    },
+                    {
+                        "id": "a52fc2be-0fb5-41d2-9183-82b2f6929700",
+                        "name": "Year"
+                    },
+                    {
+                        "id": "a6f6d20d-e5eb-449b-8d52-b65c1b22c8ed",
+                        "name": "Standard for gruppering av familier"
+                    },
+                    {
+                        "id": "ae8edf6a-be4d-4c1c-930f-e6c9473cff95",
+                        "name": "Dato"
+                    },
+                    {
+                        "id": "b936a04e-c238-4f1c-83ef-b7e863d4cdbf",
+                        "name": "Ikke relevant"
+                    },
+                    {
+                        "id": "c14bf95e-a116-489b-827b-686650024930",
+                        "name": "F\u00f8dselsnummer"
+                    },
+                    {
+                        "id": "c1a40b5c-f8d4-4ed8-b137-60afc71afa0c",
+                        "name": "Standard for sentinelle verdier"
+                    },
+                    {
+                        "id": "d8358911-7f2d-45b6-83d0-9665e793448a",
+                        "name": "Standard for gruppering av husholdninger"
+                    },
+                    {
+                        "id": "d8cc8722-e5a1-4972-80b1-d00630b4e6ea",
+                        "name": "Standard for pensjonstype"
+                    },
+                    {
+                        "id": "e2db994a-c16a-45cf-92e6-e4f1e39581f4",
+                        "name": "Standard for land og statsborgerskap i personstatistikk"
+                    },
+                    {
+                        "id": "fcdd031c-59fe-4d11-96dc-2eceff091c74",
+                        "name": "Standard for behandlingsart"
+                    }
+                ]
+            }
+        }
+    ]
+}
