@@ -42,11 +42,17 @@ class MetadataReader:
     def get_logical_record_unit_type_id(self):
         return self.jupyter_meta["unitType"]["selected-id"]
 
-    def get_instance_variables_list(self):
+    def get_instance_variable_list(self):
         return self.jupyter_meta["instanceVariables"]
 
+    def get_instance_variable_names(self):
+        names = []
+        for inst_var in self.get_instance_variable_list():
+            names.append(str(inst_var["name"]))
+        return names
+
     def get_instance_variable(self, name):
-        for inst_var in self.get_instance_variables_list():
+        for inst_var in self.get_instance_variable_list():
             if inst_var["name"] == name:
                 return inst_var
         return None  # variable not found
@@ -56,6 +62,20 @@ class MetadataReader:
 
     def get_instance_variable_component_type(self, name):
         return self.get_instance_variable(name)["dataStructureComponentType"]["selected-enum"]
+
+    def count_identifier_instance_variables(self):
+        cnt = 0
+        for inst_var in self.get_instance_variable_list():
+            if inst_var["dataStructureComponentType"]["selected-enum"] == "IDENTIFIER":
+                cnt+=1
+        return cnt
+
+    def count_measure_instance_variables(self):
+        cnt = 0
+        for inst_var in self.get_instance_variable_list():
+            if inst_var["dataStructureComponentType"]["selected-enum"] == "MEASURE":
+                cnt+=1
+        return cnt
 
     def get_instance_variable_represented_variable_id(self, name):
         return self.get_instance_variable(name)["representedVariable"]["selected-id"]
@@ -144,6 +164,6 @@ class MetadataReader:
 # #print(mr.get_instance_variables_list())
 # print(mr.get_instance_variable_component_type("fnr"))
 
-# print(mr.get_concept_represented_variable("zzzzRepresentedVariable_DUMMY"))
+# print(mr.get_concept_represented_variable("RepresentedVariable_DUMMY"))
 
 
