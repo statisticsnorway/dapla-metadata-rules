@@ -30,6 +30,8 @@ class MetadataReader:
     # TODO: DataSet.temporalityType mangler i JSON-filen fra Jupiter %document.
     # TODO: DataSet.dataSetState mangler også. Kanskje vi trenger denne?
     # TODO: Kanskje vi også trenger DataSet.valuation ???
+    # TODO: DataSet.shortName???
+    # TODO: InstanceVariable.shortName???
     ##########
 
     # Metodene nedenfor henter ut elementer (objekt og attributter) fra Jupyter %document-json-filen
