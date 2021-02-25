@@ -1,4 +1,5 @@
 import json
+from os import name
 import pathlib
 import requests
 
@@ -19,13 +20,6 @@ class MetadataReader:
         self.__lds_cookie = input("Cookie:")
 
 
-    # Leser metadata fra en Jupyter %document-json-fil 
-    def __read_dapla_jupyter_metadata(self):
-        # TODO: Lese metadata fra riktig path/filnavn i Jupyter i Dapla notebook miljø.
-        path_jupyter_doc_json = self.__project_root_path.joinpath("tests").joinpath("resources").joinpath("example_metadata")
-        with open(path_jupyter_doc_json.joinpath(self.__dapla_json_doc_file)) as json_file: 
-            self.jupyter_meta = json.load(json_file)
-
     ##########
     # TODO: DataSet.temporalityType mangler i JSON-filen fra Jupiter %document.
     # TODO: DataSet.dataSetState mangler også. Kanskje vi trenger denne?
@@ -33,6 +27,13 @@ class MetadataReader:
     # TODO: DataSet.shortName???
     # TODO: InstanceVariable.shortName???
     ##########
+
+    ### Leser metadata fra en Jupyter %document-json-fil ###
+    def __read_dapla_jupyter_metadata(self):
+        # TODO: Lese metadata fra riktig path/filnavn i Jupyter i Dapla notebook miljø.
+        path_jupyter_doc_json = self.__project_root_path.joinpath("tests").joinpath("resources").joinpath("example_metadata")
+        with open(path_jupyter_doc_json.joinpath(self.__dapla_json_doc_file)) as json_file: 
+            self.jupyter_meta = json.load(json_file)
 
     # Metodene nedenfor henter ut elementer (objekt og attributter) fra Jupyter %document-json-filen
     def get_dataset_name(self):
@@ -65,6 +66,20 @@ class MetadataReader:
     def get_instance_variable_component_type(self, name):
         return self.get_instance_variable(name)["dataStructureComponentType"]["selected-enum"]
 
+    def get_identifier_instance_variable_names(self):
+        names = []
+        for inst_var in self.get_instance_variable_list():
+            if inst_var["dataStructureComponentType"]["selected-enum"] == "IDENTIFIER":
+                names.append(str(inst_var["name"]))
+        return names
+
+    def get_measure_instance_variable_names(self):
+        names = []
+        for inst_var in self.get_instance_variable_list():
+            if inst_var["dataStructureComponentType"]["selected-enum"] == "MEASURE":
+                names.append(str(inst_var["name"]))
+        return names
+
     def count_identifier_instance_variables(self):
         cnt = 0
         for inst_var in self.get_instance_variable_list():
@@ -89,7 +104,7 @@ class MetadataReader:
         return self.get_instance_variable(name)["sentinelValueDomain"]["selected-id"]
 
 
-    # Generell funksjon for å hente Concept metadata fra LDS Rest API
+    ### Generell funksjon for å hente Concept metadata fra LDS Rest API ###
     def get_concept_metadata(self, object_type:str, object_id:str=None):
         # Eksempel Stage LDS: https://dapla-workbench.staging-bip-app.ssb.no/be/concept-lds/ns/RepresentedVariable
         concept_lds_url = "https://dapla-workbench.staging-bip-app.ssb.no/be/concept-lds/ns/"  # Stage LDS API
