@@ -11,13 +11,13 @@ class MetadataReader:
         self.__dapla_json_doc_file = dapla_json_doc_file
         self.__project_root_path = pathlib.Path(__file__).parent.parent
         self.__lds_cookie = None
-        self.set_cookie()  # TODO: Fjernes hvis Concept LDS API åpnes for les!
+        # self.set_cookie()  # TODO: Fjernes hvis Concept LDS API åpnes for les!
         self.__read_dapla_jupyter_metadata()
 
 
     # TODO: Forhåpenligvis kan vi fjerne set_cookie() hvis de får åpnet Concept LDS API for les uten pålogging!
-    def set_cookie(self):
-        self.__lds_cookie = input("Cookie:")
+    #def set_cookie(self):
+    #    self.__lds_cookie = input("Cookie:")
 
 
     ##########
@@ -106,19 +106,23 @@ class MetadataReader:
 
     ### Generell funksjon for å hente Concept metadata fra LDS Rest API ###
     def get_concept_metadata(self, object_type:str, object_id:str=None):
+        meta_response = None
         # Eksempel Stage LDS: https://dapla-workbench.staging-bip-app.ssb.no/be/concept-lds/ns/RepresentedVariable
-        concept_lds_url = "https://dapla-workbench.staging-bip-app.ssb.no/be/concept-lds/ns/"  # Stage LDS API
+        # concept_lds_url = "https://dapla-workbench.staging-bip-app.ssb.no/be/concept-lds/ns/"  # Stage LDS API
+        concept_lds_url = " https://concept-lds.staging-bip-app.ssb.no/ns/" # Åpent Stage LDS API
         concept_object_url = concept_lds_url + object_type
         if object_id:
             # Eksempel Stage LDS: https://dapla-workbench.staging-bip-app.ssb.no/be/concept-lds/ns/RepresentedVariable/RepresentedVariable_DUMMY
             concept_object_url = concept_object_url + "/" + object_id
-        response = requests.get(concept_object_url, headers={"Cookie": self.__lds_cookie})
-        if response.text:
-            return requests.get(concept_object_url, headers={"Cookie": self.__lds_cookie}).json()
+        #meta_response = requests.get(concept_object_url, headers={"Cookie": self.__lds_cookie})
+        meta_response = requests.get(concept_object_url)
+        if meta_response.text:
+            #return requests.get(concept_object_url, headers={"Cookie": self.__lds_cookie}).json()
+            return meta_response.json()
         else:
             print("ERROR: Not valid request for Concept LDS API or other problems?")
             print("  " + concept_object_url)
-            print("  " + str(response))
+            print("  " + str(meta_response))
             return None
 
     # Metodene nedenfor henter ut elementer (objeker og attributter) fra Concpet LDS
